@@ -29,7 +29,7 @@
 <meta property="og:site_name" content="jute">
 <meta property="og:description" content="前言這一篇貼文，主要是紀錄與分享 risiOS：一支期待可以讓使用者更輕鬆愉快地使用 Fedora 的衍生 Distro。">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://live.staticflickr.com/65535/52651223107_891da03443_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/52651223107_016e7837c2_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52652198383_4d3fd64f77_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52651713226_a20a4ff4d9_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52651986154_10ec0ff6e2_c.jpg">
@@ -46,13 +46,13 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/52652198103_7d17534ace_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52651223112_66487c7904_c.jpg">
 <meta property="article:published_time" content="2023-01-27T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-13T23:32:14.550Z">
+<meta property="article:modified_time" content="2024-12-27T06:21:50.424Z">
 <meta property="article:author" content="jute.im">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="fedora">
 <meta property="article:tag" content="risios">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://live.staticflickr.com/65535/52651223107_891da03443_c.jpg">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/52651223107_016e7837c2_o.png">
 
 <link rel="canonical" href="http://jute.im/linux/risios-37-1-1/">
 
@@ -281,7 +281,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>1.6k</span>
+              <span>1.5k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -300,52 +300,23 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這一篇貼文，主要是紀錄與分享 risiOS：一支期待可以讓使用者更輕鬆愉快地使用 Fedora 的衍生 Distro。</p>
-<p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223107/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp33"><img src="https://live.staticflickr.com/65535/52651223107_891da03443_c.jpg" alt="risiOS37.1.1onVirtualBoxEp33"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>這一篇貼文，主要是紀錄與分享 risiOS：一支期待可以讓使用者更輕鬆愉快地使用 Fedora 的衍生 Distro。 <img src="https://live.staticflickr.com/65535/52651223107_016e7837c2_o.png" alt="risiOS37.1.1onVirtualBoxEp33"/></p>
 <h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><ol>
 <li><p>安裝與初始設定：一樣用 VirtualBox 搭配 ISO 檔進入系統，而且進入後，稍加注意一下，就會發現 Fedora 的影子還滿明顯的。比方說，Live CD 的桌面左上角，仍然可以看到「Welcome to Fedora」的字樣。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652198383/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp01"><img src="https://live.staticflickr.com/65535/52652198383_4d3fd64f77_c.jpg" alt="risiOS37.1.1onVirtualBoxEp01"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
-<li><p>在 VirtualBox 上的預設解析度。 (↓)800x600 很顯然是不夠用的，建議至少要調整到 1024x768，圖片所示的是 1280x960。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651713226/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp06"><img src="https://live.staticflickr.com/65535/52651713226_a20a4ff4d9_c.jpg" alt="risiOS37.1.1onVirtualBoxEp06"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p> (↓)安裝完成，進入初始安裝好的系統時，解析度會再跳回 800x600，多數而言，都會想要調整一下。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651986154/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp08"><img src="https://live.staticflickr.com/65535/52651986154_10ec0ff6e2_c.jpg" alt="risiOS37.1.1onVirtualBoxEp08"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<li><p>在 VirtualBox 上的預設解析度。 (↓)800x600 很顯然是不夠用的，建議至少要調整到 1024x768，圖片所示的是 1280x960。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651713226/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp06"><img src="https://live.staticflickr.com/65535/52651713226_a20a4ff4d9_c.jpg" alt="risiOS37.1.1onVirtualBoxEp06"></a><br> (↓)安裝完成，進入初始安裝好的系統時，解析度會再跳回 800x600，多數而言，都會想要調整一下。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651986154/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp08"><img src="https://live.staticflickr.com/65535/52651986154_10ec0ff6e2_c.jpg" alt="risiOS37.1.1onVirtualBoxEp08"></a></p>
 </li>
-<li><p>risiWelcome。 這是 risiOS 的重點之一，這個 App 在 FirstSteps 裡面，幾個項目主要是可以處理 Nvidia 驅動程式、影音解碼與 FlatHub 設定等等，有這些設定，確實提升系統使用上的完整度與便利性。我發現已經有不少 Linux 會這麼做，也許有人也會有跟我一樣的疑問：「怎麼不乾脆在安裝的時候，直接全部納入。」我後來想想，應該也是有 Linux 在安裝之初就收錄並安裝好給使用者，但，Linux 畢竟有比較高的自由度，以我自己而言，越來越喜歡把基本的安裝好，其他的，我想要的時候再加進來的使用習慣，所以，我個人認為保留給使用者自己決定與取捨，仍不失為一個好的系統使用設計方式。</p>
-<p> QuickSteps 項目裡，則是比較偏向影音娛樂與編輯、遊戲、辦公室(或學校)運用相關的 App 安裝，從這些項目來看，risiOS 目前有比較多的企圖，應該是要讓使用者感受到 Linux 處理這些日常，都是 OK 的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223267/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp23"><img src="https://live.staticflickr.com/65535/52651223267_b9b18a73a7_c.jpg" alt="risiOS37.1.1onVirtualBoxEp23"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p> (↓)原本，我以為走完這個設定就結束，一時之間，也不知道這樣跟 Fedora 有什麼太大的差別。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223362/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp14"><img src="https://live.staticflickr.com/65535/52651223362_587c444d59_c.jpg" alt="risiOS37.1.1onVirtualBoxEp14"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p> (↓)隨著 risiWelcome 親臨駕到，這個想法不久就被扭轉。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223362/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp14"><img src="https://live.staticflickr.com/65535/52651223362_587c444d59_c.jpg" alt="risiOS37.1.1onVirtualBoxEp14"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<li><p>risiWelcome。 這是 risiOS 的重點之一，這個 App 在 FirstSteps 裡面，幾個項目主要是可以處理 Nvidia 驅動程式、影音解碼與 FlatHub 設定等等，有這些設定，確實提升系統使用上的完整度與便利性。我發現已經有不少 Linux 會這麼做，也許有人也會有跟我一樣的疑問：「怎麼不乾脆在安裝的時候，直接全部納入。」我後來想想，應該也是有 Linux 在安裝之初就收錄並安裝好給使用者，但，Linux 畢竟有比較高的自由度，以我自己而言，越來越喜歡把基本的安裝好，其他的，我想要的時候再加進來的使用習慣，所以，我個人認為保留給使用者自己決定與取捨，仍不失為一個好的系統使用設計方式。<br> QuickSteps 項目裡，則是比較偏向影音娛樂與編輯、遊戲、辦公室(或學校)運用相關的 App 安裝，從這些項目來看，risiOS 目前有比較多的企圖，應該是要讓使用者感受到 Linux 處理這些日常，都是 OK 的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223267/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp23"><img src="https://live.staticflickr.com/65535/52651223267_b9b18a73a7_c.jpg" alt="risiOS37.1.1onVirtualBoxEp23"></a><br> (↓)原本，我以為走完這個設定就結束，一時之間，也不知道這樣跟 Fedora 有什麼太大的差別。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223362/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp14"><img src="https://live.staticflickr.com/65535/52651223362_587c444d59_c.jpg" alt="risiOS37.1.1onVirtualBoxEp14"></a><br> (↓)隨著 risiWelcome 親臨駕到，這個想法不久就被扭轉。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223362/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp14"><img src="https://live.staticflickr.com/65535/52651223362_587c444d59_c.jpg" alt="risiOS37.1.1onVirtualBoxEp14"></a></p>
 </li>
-<li><p>risiTweaks：risiOS 另外一個重點，便是這個 App。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652198068/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp30"><img src="https://live.staticflickr.com/65535/52652198068_ced1ae51d1_c.jpg" alt="risiOS37.1.1onVirtualBoxEp30"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p> (↓)進入後，就會看到總共分為 4 個頁籤，其中一個頁籤：risiScripts，也是 risiOS 的重點，點進去的話，則是一些瀏覽器安裝的 Scripts。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223317/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/52651223317_a67f3601d5_c.jpg" alt="risiOS37.1.1onVirtualBoxEp20"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p> (↓)我選用安裝 Chrome 的 Script，確實可以順利服用，沒有問題。而這次的試用，我並沒有自己試著使用 risiOS 裡面的工作，編寫自己想要的 Script，但，據官方說明，risiOS 已經試著讓自行編寫 Script 這件事變得容易，若真是如此，改天我也會試著在上頭編寫看看。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223317/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/52651223317_a67f3601d5_c.jpg" alt="risiOS37.1.1onVirtualBoxEp20"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652198203/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp21"><img src="https://live.staticflickr.com/65535/52652198203_eb74c080ae_c.jpg" alt="risiOS37.1.1onVirtualBoxEp21"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652157270/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp22"><img src="https://live.staticflickr.com/65535/52652157270_21e5252efc_c.jpg" alt="risiOS37.1.1onVirtualBoxEp22"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652157245/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp26"><img src="https://live.staticflickr.com/65535/52652157245_33506cd835_c.jpg" alt="risiOS37.1.1onVirtualBoxEp26"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-<p>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651712991/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp27"><img src="https://live.staticflickr.com/65535/52651712991_e1ceece736_c.jpg" alt="risiOS37.1.1onVirtualBoxEp27"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
+<li><p>risiTweaks：risiOS 另外一個重點，便是這個 App。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652198068/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp30"><img src="https://live.staticflickr.com/65535/52652198068_ced1ae51d1_c.jpg" alt="risiOS37.1.1onVirtualBoxEp30"></a><br> (↓)進入後，就會看到總共分為 4 個頁籤，其中一個頁籤：risiScripts，也是 risiOS 的重點，點進去的話，則是一些瀏覽器安裝的 Scripts。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223317/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/52651223317_a67f3601d5_c.jpg" alt="risiOS37.1.1onVirtualBoxEp20"></a><br> (↓)我選用安裝 Chrome 的 Script，確實可以順利服用，沒有問題。而這次的試用，我並沒有自己試著使用 risiOS 裡面的工作，編寫自己想要的 Script，但，據官方說明，risiOS 已經試著讓自行編寫 Script 這件事變得容易，若真是如此，改天我也會試著在上頭編寫看看。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223317/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp20"><img src="https://live.staticflickr.com/65535/52651223317_a67f3601d5_c.jpg" alt="risiOS37.1.1onVirtualBoxEp20"></a><br>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652198203/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp21"><img src="https://live.staticflickr.com/65535/52652198203_eb74c080ae_c.jpg" alt="risiOS37.1.1onVirtualBoxEp21"></a><br>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652157270/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp22"><img src="https://live.staticflickr.com/65535/52652157270_21e5252efc_c.jpg" alt="risiOS37.1.1onVirtualBoxEp22"></a><br>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652157245/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp26"><img src="https://live.staticflickr.com/65535/52652157245_33506cd835_c.jpg" alt="risiOS37.1.1onVirtualBoxEp26"></a><br>  <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651712991/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp27"><img src="https://live.staticflickr.com/65535/52651712991_e1ceece736_c.jpg" alt="risiOS37.1.1onVirtualBoxEp27"></a></p>
+</li>
 </ol>
-<hr>
 <h3 id="中文支援、設定與中文輸入法框架的使用心得"><a href="#中文支援、設定與中文輸入法框架的使用心得" class="headerlink" title="中文支援、設定與中文輸入法框架的使用心得"></a>中文支援、設定與中文輸入法框架的使用心得</h3><ol>
 <li><p>中文支援：有 Fedora 深厚的功力在，基本上中文支援在 Linux 裡面，應該說是前段班並不為過。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52652198103/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp28"><img src="https://live.staticflickr.com/65535/52652198103_7d17534ace_c.jpg" alt="risiOS37.1.1onVirtualBoxEp28"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
-<li><p>中文輸入法框架：我沒有特別去安裝或做設定，只是下一個指令找找看 fcitx5-table-extra 這支套件。我相信，原則上，應該是可以直接參考 <a href="/boshiamy/fedora-35-and-boshiamy-feat-fcitx5/">Fedora 35 與嘸蝦米 (feat. Fcitx5)</a> 這一篇貼文。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223112/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp32"><img src="https://live.staticflickr.com/65535/52651223112_66487c7904_c.jpg" alt="risiOS37.1.1onVirtualBoxEp32"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
+<li><p>中文輸入法框架：我沒有特別去安裝或做設定，只是下一個指令找找看 fcitx5-table-extra 這支套件。我相信，原則上，應該是可以直接參考我寫過的 Fedora 相關貼文。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/52651223112/in/dateposted-public/" title="risiOS37.1.1onVirtualBoxEp32"><img src="https://live.staticflickr.com/65535/52651223112_66487c7904_c.jpg" alt="risiOS37.1.1onVirtualBoxEp32"></a></p>
+</li>
 </ol>
-<hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li>本次安裝使用的 ISO 檔版本是 risiOS-Live-37-1-1-20230105.iso。</li>
 <li>相較於 Arch Linux、Debian 與 ubuntu，Fedora 的衍生 Distro 就顯得不是那麼百花齊放。</li>
