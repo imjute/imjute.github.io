@@ -29,6 +29,7 @@
 <meta property="og:site_name" content="jute">
 <meta property="og:description" content="前言寫程式，設定好 IDE，可以增加自己的效率，今天來紀錄一下安裝 Visual Studio Code (又稱 VSCode)，設定 C++ 的程式設計環境。">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51410897295_0763e077f3_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51410186958_0235ff01d2_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51411644776_360dbe16e6_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51412035993_93f59e4aac_o.png">
@@ -40,15 +41,15 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51411575416_d8007961a4_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51410676684_a59aa77c03_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51409171467_5553f05524_o.png">
-<meta property="article:published_time" content="2021-08-30T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-13T23:29:08.077Z">
+<meta property="article:published_time" content="2021-08-29T00:00:00.000Z">
+<meta property="article:modified_time" content="2024-12-28T07:19:26.380Z">
 <meta property="article:author" content="jute.im">
 <meta property="article:tag" content="windows10">
 <meta property="article:tag" content="vscode">
 <meta property="article:tag" content="mingw">
 <meta property="article:tag" content="msys2">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://live.staticflickr.com/65535/51410186958_0235ff01d2_o.png">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/51410897295_0763e077f3_o.png">
 
 <link rel="canonical" href="http://jute.im/windows/installing-visual-studio-code-on-windows-ep2/">
 
@@ -259,7 +260,7 @@
               </span>
               <span class="post-meta-item-text">發表於</span>
 
-              <time title="創建時間：2021-08-30 08:00:00" itemprop="dateCreated datePublished" datetime="2021-08-30T08:00:00+08:00">2021-08-30</time>
+              <time title="創建時間：2021-08-29 08:00:00" itemprop="dateCreated datePublished" datetime="2021-08-29T08:00:00+08:00">2021-08-29</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -296,19 +297,25 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>寫程式，設定好 IDE，可以增加自己的效率，今天來紀錄一下安裝 Visual Studio Code (又稱 VSCode)，設定 C++ 的程式設計環境。</p>
-<p>我找了個從沒有安裝過的 Windows 10 上面完成安裝的，安裝後把紀錄大致分成幾個部分。</p>
-<p>EP 1：<a href="/windows/installing-visual-studio-code-on-windows-ep1/" title="安裝 Visual Studio Code 主程式">安裝 Visual Studio Code 主程式</a><br>EP 2：<a href="/windows/installing-visual-studio-code-on-windows-ep2/" title="安裝 MSYS2 與 MinGW">安裝 MSYS2 與 MinGW</a><br>EP 3：<a href="/windows/installing-visual-studio-code-on-windows-ep3/" title="設定程式設計專案路徑，安裝 Visual Studio Code 語言套件與 C++ 相關套件">設定程式設計專案路徑，安裝 Visual Studio Code 語言套件與 C++ 相關套件</a></p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>寫程式，設定好 IDE，可以增加自己的效率，今天來紀錄一下安裝 Visual Studio Code (又稱 VSCode)，設定 C++ 的程式設計環境。 <img src="https://live.staticflickr.com/65535/51410897295_0763e077f3_o.png"></p>
+<h4 id="我找了個從沒有安裝過的-Windows-10-上面完成安裝的，安裝後把紀錄大致分成幾個部分。"><a href="#我找了個從沒有安裝過的-Windows-10-上面完成安裝的，安裝後把紀錄大致分成幾個部分。" class="headerlink" title="我找了個從沒有安裝過的 Windows 10 上面完成安裝的，安裝後把紀錄大致分成幾個部分。"></a>我找了個從沒有安裝過的 Windows 10 上面完成安裝的，安裝後把紀錄大致分成幾個部分。</h4><p>EP 1：<a href="/windows/installing-visual-studio-code-on-windows-ep1/" title="安裝 Visual Studio Code 主程式">安裝 Visual Studio Code 主程式</a><br>EP 2：<a href="/windows/installing-visual-studio-code-on-windows-ep2/" title="安裝 MSYS2 與 MinGW">安裝 MSYS2 與 MinGW</a><br>EP 3：<a href="/windows/installing-visual-studio-code-on-windows-ep3/" title="設定程式設計專案路徑，安裝 Visual Studio Code 語言套件與 C++ 相關套件">設定程式設計專案路徑，安裝 Visual Studio Code 語言套件與 C++ 相關套件</a></p>
 <h3 id="安裝-MSYS2-與-MinGW"><a href="#安裝-MSYS2-與-MinGW" class="headerlink" title="安裝 MSYS2 與 MinGW"></a>安裝 MSYS2 與 MinGW</h3><ol>
-<li><a target="_blank" rel="noopener" href="https://www.msys2.org/">MSYS2</a> 網站就有滿詳盡的說明，我基本上也是照著說明服用。</li>
-<li>我這次是下載 msys2-x86_64-20210725.exe，安裝時就是一直「下一步」到「完成」，即使如此，也麻煩要特別注意一下 Installation Folder 這個步驟，確認一下安裝路徑，因為這個後續的環境設定會用到，我想，對於安裝與設定過其他程式設計環境的人，應該不陌生。 <img src="https://live.staticflickr.com/65535/51410186958_0235ff01d2_o.png"></li>
-<li>下 3 道命令，把 MinGW 裝起來。<br>(1)<code>pacman -Syu</code>：這個指令是為了更新系統的核心套件，更新完會關掉視窗，請至開始功能表找到並開啟 MSYS2 MSYS。 <img src="https://live.staticflickr.com/65535/51411644776_360dbe16e6_o.png"><br>(2)<code>pacman -Su</code>：更新其他基礎套件。<br>(3)<code>pacman -S --needed base-devel mingw-w64-x86_64-toolchain</code>：安裝 mingw-w64 GCC 與相關工具套件。</li>
-<li>接著，有二種走法。<br>(1)快速進入「系統內容」，就是開 Windows 的 Terminal (CMD) 或是按住「Win+R」，執行 <code>systempropertiesadvanced</code>。使用這個方法，就可以在執行完之後，直接走到下列步驟：第 5 點的第 (5) 項【也就是說，可以跳過 第 5 點的第 (1) 項至第 (4) 項這些步驟】。 <img src="https://live.staticflickr.com/65535/51412035993_93f59e4aac_o.png"><br>(2)對 Terminal (CMD) 或是按住「Win+R」不習慣的伙伴，可以從下列步驟：第 5 點的第 (1) 項開始按步驟操課服用，也行得通。</li>
-<li>如果不想影響 Windows 的 PATH 環境變數，可以使用 MinGW 終端機，但，我想把相對應的路徑加入 PATH 環境變數，這個部分，我不常設定，其實也找了一下，這次就筆記下來，方便以後好找、好設定。<br>(1)「開始功能表」→「設定」(齒輪圖示)→「Windows 設定」，再點一下「系統」。 <img src="https://live.staticflickr.com/65535/51412423034_8b09e95c4e_o.png"><br>(2)點「關於」。 <img src="https://live.staticflickr.com/65535/51410832467_168ab6a180_o.png"><br>(3)點「系統資訊」。 <img src="https://live.staticflickr.com/65535/51410832462_0026676783_o.png"><br>(4)進入「系統內容」後，點「進階系統設定」。 <img src="https://live.staticflickr.com/65535/51411575456_dc2f8429a6_o.png"><br>(5)點「環境變數」。 <img src="https://live.staticflickr.com/65535/51410832422_82a36470d6_o.png"><br>(6)從「系統變數」欄位中，找到「Path」，點選後，再點「編輯」。 <img src="https://live.staticflickr.com/65535/51411575416_d8007961a4_o.png"><br>(7)把「C:\msys64\mingw64\bin」這個路徑，新增進去吧！ <img src="https://live.staticflickr.com/65535/51410676684_a59aa77c03_o.png"></li>
-<li>如果有已開啟的 Windows Termial (CMD) 的話，關掉並重新啟動 Terminal，如果沒有，直接啟動一個新的，執行下列命令，確認安裝完成。<pre><code>g++ -v
+<li><p><a target="_blank" rel="noopener" href="https://www.msys2.org/">MSYS2</a> 網站就有滿詳盡的說明，我基本上也是照著說明服用。</p>
+</li>
+<li><p>我這次是下載 msys2-x86_64-20210725.exe，安裝時就是一直「下一步」到「完成」，即使如此，也麻煩要特別注意一下 Installation Folder 這個步驟，確認一下安裝路徑，因為這個後續的環境設定會用到，我想，對於安裝與設定過其他程式設計環境的人，應該不陌生。 <img src="https://live.staticflickr.com/65535/51410186958_0235ff01d2_o.png"></p>
+</li>
+<li><p>下 3 道命令，把 MinGW 裝起來。<br>(1)<code>pacman -Syu</code>：這個指令是為了更新系統的核心套件，更新完會關掉視窗，請至開始功能表找到並開啟 MSYS2 MSYS。 <img src="https://live.staticflickr.com/65535/51411644776_360dbe16e6_o.png"><br>(2)<code>pacman -Su</code>：更新其他基礎套件。<br>(3)<code>pacman -S --needed base-devel mingw-w64-x86_64-toolchain</code>：安裝 mingw-w64 GCC 與相關工具套件。</p>
+</li>
+<li><p>接著，有二種走法。<br>(1)快速進入「系統內容」，就是開 Windows 的 Terminal (CMD) 或是按住「Win+R」，執行 <code>systempropertiesadvanced</code>。使用這個方法，就可以在執行完之後，直接走到下列步驟：第 5 點的第 (5) 項【也就是說，可以跳過 第 5 點的第 (1) 項至第 (4) 項這些步驟】。 <img src="https://live.staticflickr.com/65535/51412035993_93f59e4aac_o.png"><br>(2)對 Terminal (CMD) 或是按住「Win+R」不習慣的伙伴，可以從下列步驟：第 5 點的第 (1) 項開始按步驟操課服用，也行得通。</p>
+</li>
+<li><p>如果不想影響 Windows 的 PATH 環境變數，可以使用 MinGW 終端機，但，我想把相對應的路徑加入 PATH 環境變數，這個部分，我不常設定，其實也找了一下，這次就筆記下來，方便以後好找、好設定。<br>(1)「開始功能表」→「設定」(齒輪圖示)→「Windows 設定」，再點一下「系統」。 <img src="https://live.staticflickr.com/65535/51412423034_8b09e95c4e_o.png"><br>(2)點「關於」。 <img src="https://live.staticflickr.com/65535/51410832467_168ab6a180_o.png"><br>(3)點「系統資訊」。 <img src="https://live.staticflickr.com/65535/51410832462_0026676783_o.png"><br>(4)進入「系統內容」後，點「進階系統設定」。 <img src="https://live.staticflickr.com/65535/51411575456_dc2f8429a6_o.png"><br>(5)點「環境變數」。 <img src="https://live.staticflickr.com/65535/51410832422_82a36470d6_o.png"><br>(6)從「系統變數」欄位中，找到「Path」，點選後，再點「編輯」。 <img src="https://live.staticflickr.com/65535/51411575416_d8007961a4_o.png"><br>(7)把「C:\msys64\mingw64\bin」這個路徑，新增進去吧！ <img src="https://live.staticflickr.com/65535/51410676684_a59aa77c03_o.png"></p>
+</li>
+<li><p>如果有已開啟的 Windows Termial (CMD) 的話，關掉並重新啟動 Terminal，如果沒有，直接啟動一個新的，執行下列命令，確認安裝完成。</p>
+<pre><code>g++ -v
 gdb -v
 </code></pre>
- <img src="https://live.staticflickr.com/65535/51409171467_5553f05524_o.png"></li>
+<p> <img src="https://live.staticflickr.com/65535/51409171467_5553f05524_o.png"></p>
+</li>
 </ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>我在整理自己的紀錄時，發現「安裝 MSYS2 與 MinGW」是相對比較麻煩的，未來如有參考需要時，我可能會先從這一個部分開始安裝與設定。</p>
 
@@ -332,8 +339,8 @@ gdb -v
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/boshiamy/installing-arch-linux-and-boshiamy/" rel="prev" title="安裝 Arch Linux 與嘸蝦米">
-      <i class="fa fa-chevron-left"></i> 安裝 Arch Linux 與嘸蝦米
+    <a href="/windows/installing-visual-studio-code-on-windows-ep1/" rel="prev" title="在 Windows 10 上安裝 Visual Studio Code EP1">
+      <i class="fa fa-chevron-left"></i> 在 Windows 10 上安裝 Visual Studio Code EP1
     </a></div>
       <div class="post-nav-item">
     <a href="/windows/installing-visual-studio-code-on-windows-ep3/" rel="next" title="在 Windows 10 上安裝 Visual Studio Code EP3">
@@ -397,7 +404,7 @@ gdb -v
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D-MSYS2-%E8%88%87-MinGW"><span class="nav-number">2.</span> <span class="nav-text">安裝 MSYS2 與 MinGW</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%88%91%E6%89%BE%E4%BA%86%E5%80%8B%E5%BE%9E%E6%B2%92%E6%9C%89%E5%AE%89%E8%A3%9D%E9%81%8E%E7%9A%84-Windows-10-%E4%B8%8A%E9%9D%A2%E5%AE%8C%E6%88%90%E5%AE%89%E8%A3%9D%E7%9A%84%EF%BC%8C%E5%AE%89%E8%A3%9D%E5%BE%8C%E6%8A%8A%E7%B4%80%E9%8C%84%E5%A4%A7%E8%87%B4%E5%88%86%E6%88%90%E5%B9%BE%E5%80%8B%E9%83%A8%E5%88%86%E3%80%82"><span class="nav-number">1.1.</span> <span class="nav-text">我找了個從沒有安裝過的 Windows 10 上面完成安裝的，安裝後把紀錄大致分成幾個部分。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D-MSYS2-%E8%88%87-MinGW"><span class="nav-number">2.</span> <span class="nav-text">安裝 MSYS2 與 MinGW</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">3.</span> <span class="nav-text">後記</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -411,7 +418,7 @@ gdb -v
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">178</span>
+          <span class="site-state-item-count">177</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -461,13 +468,13 @@ gdb -v
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">219k</span>
+    <span title="總字數">218k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">6:38</span>
+    <span title="所需總閱讀時間">6:36</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>

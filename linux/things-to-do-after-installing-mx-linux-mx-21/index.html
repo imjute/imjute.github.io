@@ -22,13 +22,14 @@
     var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言決定要跟 MX Linux 好好相處一段時間，這兩天短暫地相處後，有一些設定是在嘸蝦米輸入法搞定後，我認為有必要做的，甚至，有些設定與處置應該要走在嘸蝦米輸入法之前才是。">
+  <meta name="description" content="前言">
 <meta property="og:type" content="article">
 <meta property="og:title" content="安裝 MX Linux MX-21 後，我做了一些系統設定">
 <meta property="og:url" content="http://jute.im/linux/things-to-do-after-installing-mx-linux-mx-21/index.html">
 <meta property="og:site_name" content="jute">
-<meta property="og:description" content="前言決定要跟 MX Linux 好好相處一段時間，這兩天短暫地相處後，有一些設定是在嘸蝦米輸入法搞定後，我認為有必要做的，甚至，有些設定與處置應該要走在嘸蝦米輸入法之前才是。">
+<meta property="og:description" content="前言">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://live.staticflickr.com/65535/51844155298_5a9084fb21_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51844406914_f9de4f460e_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51844042816_aea8ebfa6c_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51844782055_b139a831ff_o.png">
@@ -46,13 +47,13 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/51843169957_b4cc0c5a5c_o.png">
 <meta property="og:image" content="https://live.staticflickr.com/65535/51844155298_f5bbfd87cb_o.png">
 <meta property="article:published_time" content="2022-01-26T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-02-07T07:25:20.065Z">
+<meta property="article:modified_time" content="2024-12-28T06:53:22.596Z">
 <meta property="article:author" content="jute.im">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="mxlinux">
 <meta property="article:tag" content="debian">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://live.staticflickr.com/65535/51844406914_f9de4f460e_o.png">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/51844155298_5a9084fb21_c.jpg">
 
 <link rel="canonical" href="http://jute.im/linux/things-to-do-after-installing-mx-linux-mx-21/">
 
@@ -300,71 +301,41 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>決定要跟 MX Linux 好好相處一段時間，這兩天短暫地相處後，有一些設定是在嘸蝦米輸入法搞定後，我認為有必要做的，甚至，有些設定與處置應該要走在嘸蝦米輸入法之前才是。</p>
-<p>這篇貼文，大致分以下幾個部分：</p>
-<ol>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><img src="https://live.staticflickr.com/65535/51844155298_5a9084fb21_c.jpg" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep05"/>
+
+<p>決定要跟 MX Linux 好好相處一段時間，這兩天短暫地相處後，有一些設定是在嘸蝦米輸入法搞定後，我認為有必要做的，甚至，有些設定與處置應該要走在嘸蝦米輸入法之前才是。</p>
+<h4 id="這篇貼文，大致分以下幾個部分。"><a href="#這篇貼文，大致分以下幾個部分。" class="headerlink" title="這篇貼文，大致分以下幾個部分。"></a>這篇貼文，大致分以下幾個部分。</h4><ol>
 <li>回歸滑鼠 Double Click 的設定</li>
 <li>更新系統</li>
 <li>設定防火牆</li>
 <li>安裝 Nvidia 驅動程式</li>
 <li>安裝所需軟體(透過「MX 軟體安裝工具」)</li>
 </ol>
-<hr>
 <h3 id="回歸滑鼠-Double-Click-的設定"><a href="#回歸滑鼠-Double-Click-的設定" class="headerlink" title="回歸滑鼠 Double Click 的設定"></a>回歸滑鼠 Double Click 的設定</h3><p>說真的，點一下就執行或是把檔案打開，Windows 也曾經做過這樣的事，使用者好像也多半無法埋單，我雖然不至於不能夠接受，但也暫時不想跟自己的習慣過不去，因此就到「MX Tools （MX 工具組）」→「MX 調校」去做調整。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844406914/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep13"><img src="https://live.staticflickr.com/65535/51844406914_f9de4f460e_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep13"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
-<h3 id="更新系統"><a href="#更新系統" class="headerlink" title="更新系統"></a>更新系統</h3><p>我特別注意一下 Terminal 在跑些什麼更新，注意到似乎有更多的驅動程式支援在更新過程中安裝進來（這個部分我沒有截到圖，有點可惜）。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042816/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep01"><img src="https://live.staticflickr.com/65535/51844042816_aea8ebfa6c_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep01"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844782055/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep02"><img src="https://live.staticflickr.com/65535/51844782055_b139a831ff_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep02"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844782030/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep03"><img src="https://live.staticflickr.com/65535/51844782030_2d033bc729_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep03"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
-<h3 id="設定防火牆"><a href="#設定防火牆" class="headerlink" title="設定防火牆"></a>設定防火牆</h3><p>坦白說，我就是單純地把「狀態」開啟而已。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042791/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep04"><img src="https://live.staticflickr.com/65535/51844042791_eae38b7988_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep04"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844190828/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep15"><img src="https://live.staticflickr.com/65535/51844190828_5717f0a7fb_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep15"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
-<h3 id="安裝-Nvidia-驅動程式"><a href="#安裝-Nvidia-驅動程式" class="headerlink" title="安裝 Nvidia 驅動程式"></a>安裝 Nvidia 驅動程式</h3><p>開啟 「MX Tools （MX 工具組）」 找到「安裝 Nvidia 驅動程式」這個項目。附帶一提，我發現系統更新完之後，「MX Tools （MX 工具組）」所顯示的項目從「英文」整個轉成「繁體中文」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155298/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep05"><img src="https://live.staticflickr.com/65535/51844155298_f5bbfd87cb_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep05"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p>啟動「安裝 Nvidia 驅動程式」之後，會帶出終端機(Terminal)，基本上，確認一下後，按幾次「Enter」鍵就搞定。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042691/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep06"><img src="https://live.staticflickr.com/65535/51844042691_bbfab44b5b_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep06"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51843109142/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep07"><img src="https://live.staticflickr.com/65535/51843109142_6fd164993b_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep07"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p>驅動程式安裝完，還會在家目錄生成一個文字檔，這個說明應該是對於安裝完有狀況，或是使用起來不滿意的人，可以拿來服用的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844781955/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep08"><img src="https://live.staticflickr.com/65535/51844781955_d866bf1a1d_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep08"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042666/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep09"><img src="https://live.staticflickr.com/65535/51844042666_c644aac3ab_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep09"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
-<h3 id="安裝所需軟體-透過「MX-軟體安裝工具」"><a href="#安裝所需軟體-透過「MX-軟體安裝工具」" class="headerlink" title="安裝所需軟體(透過「MX 軟體安裝工具」)"></a>安裝所需軟體(透過「MX 軟體安裝工具」)</h3><p>「MX 軟體安裝工具」一點都不華麗，但是，對我來說，介面的實用性、易用性都高，分類算是很清楚的，不會有一種東西好像很多，要找的時候，卻找出一堆不曉得好不好用，甚至可不可以用的 App。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844781905/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep11"><img src="https://live.staticflickr.com/65535/51844781905_b38dbae9f1_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep11"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155228/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep12"><img src="https://live.staticflickr.com/65535/51844155228_5f67452186_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep12"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p>用關鍵字「fcitx」可以找出 4 種語言的 fcitx 輸入平台，我試著勾選及安裝「Chinese_Input_fcitx」後，並沒有變成「灰掉的項目」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155248/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep10"><img src="https://live.staticflickr.com/65535/51844155248_124bb5b56c_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep10"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<p> 想要再安裝的話，系統會需要取得 0 B的壓縮安裝檔…，這裡倒是有一點怪怪的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51843169957/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep16"><img src="https://live.staticflickr.com/65535/51843169957_b4cc0c5a5c_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep16"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
+<h3 id="更新系統"><a href="#更新系統" class="headerlink" title="更新系統"></a>更新系統</h3><p>我特別注意一下 Terminal 在跑些什麼更新，注意到似乎有更多的驅動程式支援在更新過程中安裝進來（這個部分我沒有截到圖，有點可惜）。<br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042816/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep01"><img src="https://live.staticflickr.com/65535/51844042816_aea8ebfa6c_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep01"></a><br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844782055/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep02"><img src="https://live.staticflickr.com/65535/51844782055_b139a831ff_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep02"></a><br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844782030/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep03"><img src="https://live.staticflickr.com/65535/51844782030_2d033bc729_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep03"></a></p>
+<h3 id="設定防火牆"><a href="#設定防火牆" class="headerlink" title="設定防火牆"></a>設定防火牆</h3><p>坦白說，我就是單純地把「狀態」開啟而已。<br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042791/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep04"><img src="https://live.staticflickr.com/65535/51844042791_eae38b7988_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep04"></a><br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844190828/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep15"><img src="https://live.staticflickr.com/65535/51844190828_5717f0a7fb_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep15"></a></p>
+<h3 id="安裝-Nvidia-驅動程式"><a href="#安裝-Nvidia-驅動程式" class="headerlink" title="安裝 Nvidia 驅動程式"></a>安裝 Nvidia 驅動程式</h3><ol>
+<li><p>開啟 「MX Tools （MX 工具組）」 找到「安裝 Nvidia 驅動程式」這個項目。附帶一提，我發現系統更新完之後，「MX Tools （MX 工具組）」所顯示的項目從「英文」整個轉成「繁體中文」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155298/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep05"><img src="https://live.staticflickr.com/65535/51844155298_f5bbfd87cb_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep05"></a></p>
+</li>
+<li><p>啟動「安裝 Nvidia 驅動程式」之後，會帶出終端機(Terminal)，基本上，確認一下後，按幾次「Enter」鍵就搞定。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042691/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep06"><img src="https://live.staticflickr.com/65535/51844042691_bbfab44b5b_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep06"></a></p>
+</li>
+</ol>
+<p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51843109142/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep07"><img src="https://live.staticflickr.com/65535/51843109142_6fd164993b_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep07"></a></p>
+<ol start="3">
+<li>驅動程式安裝完，還會在家目錄生成一個文字檔，這個說明應該是對於安裝完有狀況，或是使用起來不滿意的人，可以拿來服用的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844781955/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep08"><img src="https://live.staticflickr.com/65535/51844781955_d866bf1a1d_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep08"></a><br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844042666/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep09"><img src="https://live.staticflickr.com/65535/51844042666_c644aac3ab_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep09"></a></li>
+</ol>
+<h3 id="安裝所需軟體-透過「MX-軟體安裝工具」"><a href="#安裝所需軟體-透過「MX-軟體安裝工具」" class="headerlink" title="安裝所需軟體(透過「MX 軟體安裝工具」)"></a>安裝所需軟體(透過「MX 軟體安裝工具」)</h3><ol>
+<li><p>「MX 軟體安裝工具」一點都不華麗，但是，對我來說，介面的實用性、易用性都高，分類算是很清楚的，不會有一種東西好像很多，要找的時候，卻找出一堆不曉得好不好用，甚至可不可以用的 App。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844781905/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep11"><img src="https://live.staticflickr.com/65535/51844781905_b38dbae9f1_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep11"></a><br><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155228/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep12"><img src="https://live.staticflickr.com/65535/51844155228_5f67452186_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep12"></a></p>
+</li>
+<li><p>用關鍵字「fcitx」可以找出 4 種語言的 fcitx 輸入平台，我試著勾選及安裝「Chinese_Input_fcitx」後，並沒有變成「灰掉的項目」。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155248/in/photostream/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep10"><img src="https://live.staticflickr.com/65535/51844155248_124bb5b56c_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep10"></a></p>
+</li>
+<li><p>想要再安裝的話，系統會需要取得 0 B的壓縮安裝檔…，這裡倒是有一點怪怪的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51843169957/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep16"><img src="https://live.staticflickr.com/65535/51843169957_b4cc0c5a5c_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep16"></a></p>
+</li>
+</ol>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>從某個角度來說，我認為 MX Linux 剛好是一個讓我在 Fedora 與 Clear Linux 之間取得平衡點的選擇。再加上，之前我花了一點時間摸索 Debian 11，多少也有受到 Debian 11 的吸引等等，儘管我在實機上安裝 MX Linux 並不如其他 Distro 來得順利，進到系統後，想要處理中文輸入法也不輕鬆，然而，卻擋不住我想跟 MX Linux 好好相處一段時間的決心。</p>
 </li>
 <li><p>如果是在以前，看到「MX Tools （MX 工具組）」，我可能會想著，為什麼系統要在「設定值」之外，又弄一個看似跟系統設定有點關連的額外工具組（箱），然後，就把這支 Distro 塵封起來，但，我這次耐著性子使用一下，發現這個名為「MX Tools （MX 工具組）」還不錯用。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/jutedev/51844155298/in/dateposted/" title="thingstoDoAfterInstallingMXLinuxMX-21Ep05"><img src="https://live.staticflickr.com/65535/51844155298_f5bbfd87cb_o.png" alt="thingstoDoAfterInstallingMXLinuxMX-21Ep05"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p><a target="_blank" rel="noopener" href="https://mxlinux.org/">MX Linux – Midweight Simple Stable Desktop OS</a></p>
 </li>
@@ -456,7 +427,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9E%E6%AD%B8%E6%BB%91%E9%BC%A0-Double-Click-%E7%9A%84%E8%A8%AD%E5%AE%9A"><span class="nav-number">2.</span> <span class="nav-text">回歸滑鼠 Double Click 的設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%B5%B1"><span class="nav-number">3.</span> <span class="nav-text">更新系統</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A8%AD%E5%AE%9A%E9%98%B2%E7%81%AB%E7%89%86"><span class="nav-number">4.</span> <span class="nav-text">設定防火牆</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D-Nvidia-%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F"><span class="nav-number">5.</span> <span class="nav-text">安裝 Nvidia 驅動程式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E6%89%80%E9%9C%80%E8%BB%9F%E9%AB%94-%E9%80%8F%E9%81%8E%E3%80%8CMX-%E8%BB%9F%E9%AB%94%E5%AE%89%E8%A3%9D%E5%B7%A5%E5%85%B7%E3%80%8D"><span class="nav-number">6.</span> <span class="nav-text">安裝所需軟體(透過「MX 軟體安裝工具」)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">7.</span> <span class="nav-text">後記</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%89%8D%E8%A8%80"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%80%99%E7%AF%87%E8%B2%BC%E6%96%87%EF%BC%8C%E5%A4%A7%E8%87%B4%E5%88%86%E4%BB%A5%E4%B8%8B%E5%B9%BE%E5%80%8B%E9%83%A8%E5%88%86%E3%80%82"><span class="nav-number">1.1.</span> <span class="nav-text">這篇貼文，大致分以下幾個部分。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9B%9E%E6%AD%B8%E6%BB%91%E9%BC%A0-Double-Click-%E7%9A%84%E8%A8%AD%E5%AE%9A"><span class="nav-number">2.</span> <span class="nav-text">回歸滑鼠 Double Click 的設定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%B5%B1"><span class="nav-number">3.</span> <span class="nav-text">更新系統</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A8%AD%E5%AE%9A%E9%98%B2%E7%81%AB%E7%89%86"><span class="nav-number">4.</span> <span class="nav-text">設定防火牆</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D-Nvidia-%E9%A9%85%E5%8B%95%E7%A8%8B%E5%BC%8F"><span class="nav-number">5.</span> <span class="nav-text">安裝 Nvidia 驅動程式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%9D%E6%89%80%E9%9C%80%E8%BB%9F%E9%AB%94-%E9%80%8F%E9%81%8E%E3%80%8CMX-%E8%BB%9F%E9%AB%94%E5%AE%89%E8%A3%9D%E5%B7%A5%E5%85%B7%E3%80%8D"><span class="nav-number">6.</span> <span class="nav-text">安裝所需軟體(透過「MX 軟體安裝工具」)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BE%8C%E8%A8%98"><span class="nav-number">7.</span> <span class="nav-text">後記</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -470,7 +441,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">178</span>
+          <span class="site-state-item-count">177</span>
           <span class="site-state-item-name">文章</span>
         </a>
       </div>
@@ -520,13 +491,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">總字數：</span>
-    <span title="總字數">219k</span>
+    <span title="總字數">218k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">所需總閱讀時間 &asymp;</span>
-    <span title="所需總閱讀時間">6:38</span>
+    <span title="所需總閱讀時間">6:36</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 強力驅動
   </div>
