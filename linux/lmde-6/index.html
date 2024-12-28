@@ -29,7 +29,7 @@
 <meta property="og:site_name" content="jute">
 <meta property="og:description" content="前言Linux Mint 目前在 DistroWatch 上的「網頁參觀排名」是第 2 名，這支衍生發行版有一定的受歡迎程度。">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://live.staticflickr.com/65535/53253055105_948f8ee0b7_c.jpg">
+<meta property="og:image" content="https://live.staticflickr.com/65535/53253055105_948f8ee0b7_b.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53251670512_6a0fa51f13_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53251675577_79c543932a_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53252552546_edfcf17047_c.jpg">
@@ -42,15 +42,15 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/53252574126_bc01ca7d97_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53251703412_35009af505_c.jpg">
 <meta property="article:published_time" content="2023-10-12T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-03-17T02:04:28.588Z">
+<meta property="article:modified_time" content="2024-12-28T05:04:21.092Z">
 <meta property="article:author" content="jute.im">
-<meta property="article:tag" content="boshiamy">
 <meta property="article:tag" content="linux">
+<meta property="article:tag" content="boshiamy">
 <meta property="article:tag" content="fcitx5">
 <meta property="article:tag" content="fcitx5-table-extra">
 <meta property="article:tag" content="lmde">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://live.staticflickr.com/65535/53253055105_948f8ee0b7_c.jpg">
+<meta name="twitter:image" content="https://live.staticflickr.com/65535/53253055105_948f8ee0b7_b.jpg">
 
 <link rel="canonical" href="http://jute.im/linux/lmde-6/">
 
@@ -298,39 +298,41 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Linux Mint 目前在 DistroWatch 上的「網頁參觀排名」是第 2 名，這支衍生發行版有一定的受歡迎程度。</p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Linux Mint 目前在 DistroWatch 上的「網頁參觀排名」是第 2 名，這支衍生發行版有一定的受歡迎程度。 <img src="https://live.staticflickr.com/65535/53253055105_948f8ee0b7_b.jpg" alt="installLmde6onVirtualBoxEp (1)"/></p>
 <p>Linux Mint 除了基於 ubuntu 的版本之外，也有基於 Debian 的版本，而這篇貼文主要是我使用基於 Debian 的 LMDE(Linux Mint Debian Edition) 6 時，安裝嘸蝦米輸入法所做的紀錄。</p>
 <p>初次安裝完，記得先幫系統做一次更新，用 GUI 的介面更新，或是在 CLI 下 <code>sudo apt upgrade</code> 都行。</p>
-<p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53253055105/in/dateposted-public/" title="installLmde6onVirtualBoxEp (1)"><img src="https://live.staticflickr.com/65535/53253055105_948f8ee0b7_c.jpg" width="800" height="600" alt="installLmde6onVirtualBoxEp (1)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
-<hr>
 <h3 id="安裝系統的心得與建議"><a href="#安裝系統的心得與建議" class="headerlink" title="安裝系統的心得與建議"></a>安裝系統的心得與建議</h3><ol>
-<li>我是在 VirtualBox 上進行安裝，系統預設能夠抓到的螢幕解析度是 1024x768，我非常建議先調整成 1280x800，不然整個安裝介面的顯示會不夠完整。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53251670512/in/dateposted-public/" title="installLmde6onVirtualBoxEp (3)"><img src="https://live.staticflickr.com/65535/53251670512_6a0fa51f13_c.jpg" width="800" height="600" alt="installLmde6onVirtualBoxEp (3)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53251675577/in/dateposted-public/" title="installLmde6onVirtualBoxEp (4)"><img src="https://live.staticflickr.com/65535/53251675577_79c543932a_c.jpg" width="800" height="500" alt="installLmde6onVirtualBoxEp (4)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53252552546/in/dateposted-public/" title="installLmde6onVirtualBoxEp (5)"><img src="https://live.staticflickr.com/65535/53252552546_edfcf17047_c.jpg" width="800" height="500" alt="installLmde6onVirtualBoxEp (5)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
-<li>儘管與 Linux Mint 一樣，都使用 CINNAMON，但是，從安裝過程，還是可以看到骨子裡有一點點不同(是在玩大家來找碴？)。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53251670522/in/dateposted-public/" title="installLmde6onVirtualBoxEp (6)"><img src="https://live.staticflickr.com/65535/53251670522_7fc7e003e6_c.jpg" width="800" height="500" alt="installLmde6onVirtualBoxEp (6)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53252844683/in/dateposted-public/" title="installLmde6onVirtualBoxEp (2)"><img src="https://live.staticflickr.com/65535/53252844683_2b59a1c156_c.jpg" width="800" height="600" alt="installLmde6onVirtualBoxEp (2)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
+<li><p>我是在 VirtualBox 上進行安裝，系統預設能夠抓到的螢幕解析度是 1024x768，我非常建議先調整成 1280x800，不然整個安裝介面的顯示會不夠完整。 <img src="https://live.staticflickr.com/65535/53251670512_6a0fa51f13_c.jpg" width="800" height="600" alt="installLmde6onVirtualBoxEp (3)"/> <img src="https://live.staticflickr.com/65535/53251675577_79c543932a_c.jpg" alt="installLmde6onVirtualBoxEp (4)"/> <img src="https://live.staticflickr.com/65535/53252552546_edfcf17047_c.jpg" alt="installLmde6onVirtualBoxEp (5)"/></p>
+</li>
+<li><p>儘管與 Linux Mint 一樣，都使用 CINNAMON，但是，從安裝過程，還是可以看到骨子裡有一點點不同(是在玩大家來找碴？)。 <img src="https://live.staticflickr.com/65535/53251670522_7fc7e003e6_c.jpg" alt="installLmde6onVirtualBoxEp (6)"/> <img src="https://live.staticflickr.com/65535/53252844683_2b59a1c156_c.jpg" width="800" height="600" alt="installLmde6onVirtualBoxEp (2)"/></p>
+</li>
 </ol>
-<hr>
-<h3 id="安裝嘸蝦米輸入法"><a href="#安裝嘸蝦米輸入法" class="headerlink" title="安裝嘸蝦米輸入法"></a>安裝嘸蝦米輸入法</h3><p><a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53251690547/in/dateposted-public/" title="lmde6AndBoshiamyEp (9)"><img src="https://live.staticflickr.com/65535/53251690547_20e54f5895_c.jpg" width="800" height="500" alt="lmde6AndBoshiamyEp (9)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<h3 id="安裝嘸蝦米輸入法"><a href="#安裝嘸蝦米輸入法" class="headerlink" title="安裝嘸蝦米輸入法"></a>安裝嘸蝦米輸入法</h3><img src="https://live.staticflickr.com/65535/53251690547_20e54f5895_c.jpg" alt="lmde6AndBoshiamyEp (9)"/>
+
 <ol>
 <li><p>關鍵是<code>fcitx5-table-extra</code>這支套件，但身為 Debian 衍生發行版的 LMDE，也一樣沒有將<code>fcitx5-table-extra</code>納入軟體庫。</p>
 </li>
 <li><p>我的方法是先下一道指令，一口氣把能夠上的 Fcitx5 相關套件都補足。</p>
  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install fcitx5*</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>下圖是把 Fcitx5 相關套件都補足之前，我在 CLI 下一道指令：<code>im-config</code>，以及透過開始功能表的「搜尋」功能所做的觀察。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53252864453/in/dateposted-public/" title="lmde6AndBoshiamyEp (1)"><img src="https://live.staticflickr.com/65535/53252864453_a994de851d_c.jpg" width="800" height="500" alt="lmde6AndBoshiamyEp (1)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53253070015/in/dateposted-public/" title="lmde6AndBoshiamyEp (5)"><img src="https://live.staticflickr.com/65535/53253070015_3aff75eb13_c.jpg" width="800" height="500" alt="lmde6AndBoshiamyEp (5)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<li><p>下圖是把 Fcitx5 相關套件都補足之前，我在 CLI 下一道指令：<code>im-config</code>，以及透過開始功能表的「搜尋」功能所做的觀察。 <img src="https://live.staticflickr.com/65535/53252864453_a994de851d_c.jpg" alt="lmde6AndBoshiamyEp (1)"/> <img src="https://live.staticflickr.com/65535/53253070015_3aff75eb13_c.jpg" alt="lmde6AndBoshiamyEp (5)"/></p>
 </li>
-<li><p>下圖則是把 Fcitx5 相關套件補足之後，一樣下<code>im-config</code>這道指令與透過開始功能表的「搜尋」功能後，再做的觀察。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53252864363/in/dateposted-public/" title="lmde6AndBoshiamyEp (6)"><img src="https://live.staticflickr.com/65535/53252864363_481e5a9a67_c.jpg" width="800" height="500" alt="lmde6AndBoshiamyEp (6)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script> <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53252574126/in/dateposted-public/" title="lmde6AndBoshiamyEp (7)"><img src="https://live.staticflickr.com/65535/53252574126_bc01ca7d97_c.jpg" width="800" height="500" alt="lmde6AndBoshiamyEp (7)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<li><p>下圖則是把 Fcitx5 相關套件補足之後，一樣下<code>im-config</code>這道指令與透過開始功能表的「搜尋」功能後，再做的觀察。 <img src="https://live.staticflickr.com/65535/53252864363_481e5a9a67_c.jpg" alt="lmde6AndBoshiamyEp (6)"/> <img src="https://live.staticflickr.com/65535/53252574126_bc01ca7d97_c.jpg" alt="lmde6AndBoshiamyEp (7)"/></p>
 </li>
 <li><p>跑一趟 pkgs.org (<a target="_blank" rel="noopener" href="https://pkgs.org/download/fcitx5-table-extra">Fcitx5-table-extra Download (RPM, TGZ, TXZ, XBPS, XZ, ZST)</a>) 把 <code>fcitx5-table-extra</code> 載回來。</p>
 </li>
 <li><p>載回來的是一個壓縮檔：<code>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</code>，我建議不要急著解壓縮以及把檔案放到它們該去的位置：<code>/usr/share</code> 裡，因為，<strong>「重新啟動」</strong>Fcitx5 後，會發現嘸蝦米的「嘸」圖像，並沒有正常顯示，而新酷音的圖像卻是大大地展露無遺。基本上，這個的狀況，不太會影響到嘸蝦米輸入法的使用(至少我使用過程沒遇到過)。但，我多少有點在意，因此走一個簡單的做法，就是只把 <strong>fcitx5-table-extra-5.0.13-1-any.pkg.tar.xz</strong>裡 <code>/usr/share/icons/hicolor/16x16/apps</code> 這個路徑底下的嘸蝦米圖像相關檔案(詳可見下圖)原封不動地搬入系統內的 <code>/usr/share/icons/hicolor/16x16/apps</code> 裡，其他 <code>icons/hicolor</code> 路徑內的圖像檔，如：<code>/22x22</code>、<code>/24x24</code>、<code>/48x48</code> 以及 <code>64x64</code> 底下的圖像檔，就不要移師進入系統 (按兵不動的概念)。</p>
 </li>
-<li><p>接著，<strong>「重新啟動」</strong>Fcitx5，應該會顯示 16x16 的嘸蝦米圖像(詳可見下圖)，雖然，在 48x48 的新酷音圖像面前，嘸蝦米顯得有點小咖就是，但，總比沒有好。當然，如果要讓嘸蝦米與新酷音平起平坐，也不是不行，但…，對我來說，有顯示就有加分，我已經懶得再花時間去處理這美中不足之處。 <a data-flickr-embed="true" target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53251703412/in/dateposted-public/" title="lmde6AndBoshiamyEp (10)"><img src="https://live.staticflickr.com/65535/53251703412_35009af505_c.jpg" width="800" height="500" alt="lmde6AndBoshiamyEp (10)"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<li><p>接著，<strong>「重新啟動」</strong>Fcitx5，應該會顯示 16x16 的嘸蝦米圖像(詳可見下圖)，雖然，在 48x48 的新酷音圖像面前，嘸蝦米顯得有點小咖就是，但，總比沒有好。當然，如果要讓嘸蝦米與新酷音平起平坐，也不是不行，但…，對我來說，有顯示就有加分，我已經懶得再花時間去處理這美中不足之處。 <img src="https://live.staticflickr.com/65535/53251703412_35009af505_c.jpg" alt="lmde6AndBoshiamyEp (10)"/></p>
 </li>
 </ol>
-<hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次安裝使用的 ISO 檔版本是 lmde-6-cinnamon-64bit.iso。</li>
-<li><a target="_blank" rel="noopener" href="https://www.linuxmint.com/download_lmde.php">Download LMDE 6 - Linux Mint</a></li>
-<li><a target="_blank" rel="noopener" href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></li>
+<li><p>本次安裝使用的 ISO 檔版本是 lmde-6-cinnamon-64bit.iso。</p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://www.linuxmint.com/download_lmde.php">Download LMDE 6 - Linux Mint</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://boshiamy.com/">行易有限公司 :: 嘸蝦米輸入法</a></p>
+</li>
 </ol>
 
     </div>
@@ -341,8 +343,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
               <a href="/tags/linux/" rel="tag"># linux</a>
+              <a href="/tags/boshiamy/" rel="tag"># boshiamy</a>
               <a href="/tags/fcitx5/" rel="tag"># fcitx5</a>
               <a href="/tags/fcitx5-table-extra/" rel="tag"># fcitx5-table-extra</a>
               <a href="/tags/lmde/" rel="tag"># lmde</a>
