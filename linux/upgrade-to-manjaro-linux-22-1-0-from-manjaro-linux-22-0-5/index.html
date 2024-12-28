@@ -22,17 +22,17 @@
     var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言幾天前，我才剛在 VirtualBox 裝上 Manjaro Linux 22.0.5 Plasma Edition，想不到，沒幾天就迎來一個升級版更新。">
+  <meta name="description" content="前言">
 <meta property="og:type" content="article">
 <meta property="og:title" content="從 Manjaro Linux 22.0.5 升級到 Manjaro Linux 22.1.0">
 <meta property="og:url" content="http://jute.im/linux/upgrade-to-manjaro-linux-22-1-0-from-manjaro-linux-22-0-5/index.html">
 <meta property="og:site_name" content="jute">
-<meta property="og:description" content="前言幾天前，我才剛在 VirtualBox 裝上 Manjaro Linux 22.0.5 Plasma Edition，想不到，沒幾天就迎來一個升級版更新。">
+<meta property="og:description" content="前言">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52836310854_611f7f1945_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/52836310779_3c078feb7d_c.jpg">
 <meta property="article:published_time" content="2023-04-22T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-08-03T11:14:41.877Z">
+<meta property="article:modified_time" content="2024-12-28T04:22:35.028Z">
 <meta property="article:author" content="jute.im">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="manjaro">
@@ -267,7 +267,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>656</span>
+              <span>632</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -286,23 +286,18 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>幾天前，我才剛在 VirtualBox 裝上 <a target="_blank" rel="noopener" href="https://mtmatt.page/linux/quickrecap-of-manjaro-linux-22-0-5-kde-plasma-desktop">Manjaro Linux 22.0.5 Plasma Edition</a>，想不到，沒幾天就迎來一個升級版更新。</p>
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/joyopen/52836310854/in/dateposted-public/" title="upgradeToManjaroLinux22.1.0fromManjaroLinux22.0.5Ep2"><img src="https://live.staticflickr.com/65535/52836310854_611f7f1945_c.jpg" alt="upgradeToManjaroLinux22.1.0fromManjaroLinux22.0.5Ep2"></a></p>
+<p>幾天前，我才剛在 VirtualBox 裝上 <a target="_blank" rel="noopener" href="https://mtmatt.page/linux/quickrecap-of-manjaro-linux-22-0-5-kde-plasma-desktop">Manjaro Linux 22.0.5 Plasma Edition</a>，想不到，沒幾天就迎來一個升級版更新。</p>
 <p>呃…，那就趁這個時候先試著更新一波，同時，看看能不能順利升級。</p>
 <p>反正，頂多就是把一部虛擬主機搞爛而已。</p>
-<p><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/joyopen/52836310854/in/dateposted-public/" title="upgradeToManjaroLinux22.1.0fromManjaroLinux22.0.5Ep2"><img src="https://live.staticflickr.com/65535/52836310854_611f7f1945_c.jpg" alt="upgradeToManjaroLinux22.1.0fromManjaroLinux22.0.5Ep2"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
 <h3 id="升級流程"><a href="#升級流程" class="headerlink" title="升級流程"></a>升級流程</h3><ol>
 <li><p>我想，先把幾個指令直接寫下來(如下)。</p>
- <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">//先下指令，確認目前使用的 Manjaro 版本</span><br><span class="line">cat /etc/issue → 這道指令，在 Manjaro 並沒有顯示版本號，所以換一道指令試試</span><br><span class="line">lsb_release -a → 可以看到 Release 是 22.0.5</span><br><span class="line"></span><br><span class="line">//一道指令完成升級</span><br><span class="line">sudo pacman -Syyu</span><br></pre></td></tr></table></figure>
+ <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">//先下指令，確認目前使用的 Manjaro 版本</span><br><span class="line">cat /etc/issue → 這道指令，在 Manjaro 並沒有顯示版本號，所以換一道指令試試</span><br><span class="line">lsb_release -a → 可以看到 Release 是 22.0.5</span><br><span class="line"></span><br><span class="line">//一道指令完成升級</span><br><span class="line">sudo pacman -Syyu</span><br></pre></td></tr></table></figure>
 <p> <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/joyopen/52836310779/in/dateposted-public/" title="upgradeToManjaroLinux22.1.0fromManjaroLinux22.0.5Ep1"><img src="https://live.staticflickr.com/65535/52836310779_3c078feb7d_c.jpg" alt="upgradeToManjaroLinux22.1.0fromManjaroLinux22.0.5Ep1"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
-<li><p>下列影片是下完指令後的升級過程紀錄，影片最後，可以看到我再下一次 <code>lsb_release -a</code> 這道指令確認是否成功升級。 </p>
- <iframe width="560" height="315" src="https://www.youtube.com/embed/lELLT9WitAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></li>
+<li><p>最後，可以看到我再下一次 <code>lsb_release -a</code> 這道指令確認是否成功升級。</p>
+</li>
 </ol>
-<hr>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li>我相信，這個升級過程，基本上沒有什麼難度。更新所花費的時間約 15 分鐘，這個速度僅供參考，主要還是依個人所使用的電腦性能、網路速度等等，而會有差異。</li>
 <li>我在撰寫本篇貼文的時候，無聊地注意到 Plasma Edition 上 Manjaro 的 Logo 已經走圓角化，但 XFCE Edition 好像還是跟之前一樣：沒有圓角。</li>

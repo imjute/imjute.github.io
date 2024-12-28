@@ -22,12 +22,12 @@
     var CONFIG = {"hostname":"jute.im","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="前言不久前，我留下一篇 來一場 Linux Mint 21.1 與 Manjaro 22.1.0 之間的 PK 的紀錄，當時的 Linux Mint 21.1 在 HP ProDesk 600 上的表現，讓我感到有點意外。">
+  <meta name="description" content="前言就在 2023 年 7 月 16 日，迎來 Linux Mint 21.2，號稱 Victoria 這個新版本(以下，我會把 Linux Mint 21.2 與 Victoria 這 2 個名稱混搭使用)。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="來玩 Linux Mint 21.2">
 <meta property="og:url" content="http://jute.im/linux/linux-mint-21-2/index.html">
 <meta property="og:site_name" content="jute">
-<meta property="og:description" content="前言不久前，我留下一篇 來一場 Linux Mint 21.1 與 Manjaro 22.1.0 之間的 PK 的紀錄，當時的 Linux Mint 21.1 在 HP ProDesk 600 上的表現，讓我感到有點意外。">
+<meta property="og:description" content="前言就在 2023 年 7 月 16 日，迎來 Linux Mint 21.2，號稱 Victoria 這個新版本(以下，我會把 Linux Mint 21.2 與 Victoria 這 2 個名稱混搭使用)。">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53062652412_428d2a7804_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53062102127_1c34a2375d_c.jpg">
@@ -38,7 +38,7 @@
 <meta property="og:image" content="https://live.staticflickr.com/65535/53110981748_33ac79ce86_c.jpg">
 <meta property="og:image" content="https://live.staticflickr.com/65535/53109901317_1e07cd8010_c.jpg">
 <meta property="article:published_time" content="2023-07-29T00:00:00.000Z">
-<meta property="article:modified_time" content="2024-12-13T23:30:37.319Z">
+<meta property="article:modified_time" content="2024-12-28T04:19:25.126Z">
 <meta property="article:author" content="jute.im">
 <meta property="article:tag" content="linux">
 <meta property="article:tag" content="linuxmint">
@@ -272,7 +272,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">文章字數：</span>
-              <span>2.8k</span>
+              <span>2.6k</span>
             </span>
             <span class="post-meta-item" title="所需閱讀時間">
               <span class="post-meta-item-icon">
@@ -291,36 +291,26 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>不久前，我留下一篇 <a href="/linux/linux-mint-21-1-vs-manjaro-22-1-0/">來一場 Linux Mint 21.1 與 Manjaro 22.1.0 之間的 PK</a> 的紀錄，當時的 Linux Mint 21.1 在 HP ProDesk 600 上的表現，讓我感到有點意外。</p>
-<p>然而，就在 2023 年 7 月 16 日，迎來 Linux Mint 21.2，號稱 Victoria 這個新版本(以下，我會把 Linux Mint 21.2 與 Victoria 這 2 個名稱混搭使用)。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53062652412/in/dateposted-public/" title="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp11"><img src="https://live.staticflickr.com/65535/53062652412_428d2a7804_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp11"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>就在 2023 年 7 月 16 日，迎來 Linux Mint 21.2，號稱 Victoria 這個新版本(以下，我會把 Linux Mint 21.2 與 Victoria 這 2 個名稱混搭使用)。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53062652412/in/dateposted-public/" title="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp11"><img src="https://live.staticflickr.com/65535/53062652412_428d2a7804_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp11"></a></p>
 <p>儘管最近工作忙到，下班就是想耍廢，然而，久久未被點燃的環法熱火，今年被皮卡車與賣魚哥的纏鬥再次激發，索性就一邊看環法，一邊來玩玩看 Linux Mint 21.2。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53062102127/in/dateposted-public/" title="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp7"><img src="https://live.staticflickr.com/65535/53062102127_1c34a2375d_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp7"></a></p>
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
-<hr>
 <h3 id="快速回顧與感想"><a href="#快速回顧與感想" class="headerlink" title="快速回顧與感想"></a>快速回顧與感想</h3><ol>
 <li><p>穩定：「相較於上回我自己在 Linux Mint 21.1 上的體驗，這次是我自己在近些日子來，重新嘗試不少不同的 Distro 的經驗基礎上，我發現 Linux Mint 21.2 表現是非常穩定的。」</p>
 <p> 呃…，上面這一段基本上就是「複製貼上」的概念，但，我必須說，這一段說法，在往下走之前，我認為比較適用於「在 VirturalBox 上運行」的前提下，而今次，我正是想看看 Victoria 能不能夠「在 HP ProDesk 600 上運行」，也同樣有穩定的表現。</p>
 <p> 直接說結論：穩定性確實有提升，但不能說是完美。</p>
 <p> Victoria 主要應付我文書處理、上網，看 Youtube 與 Netflix 等需求，期間發生過幾次桌面當機 (如下圖)，當機後其他程式仍然可以運行，但，相關的桌面行為，例如：螢幕截圖，就無法運作，所以，我只好用手機拍照。我發現，當機的主要原因是在 CPU 無法獲得良好的散熱導致。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53070579078/in/dateposted-public/" title="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp13"><img src="https://live.staticflickr.com/65535/53070579078_3edaf691eb_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp13"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>好上手的桌面環境：一直以來，面對 Linux Mint，我都是搭配服用 Cinnamon Edition 的桌面環境，由於使用上很順手，也就沒有特別想到什麼。這一次，我花比較多時間與 Victoria 相處，當我把 Microsoft Edge 這支瀏覽器安裝進來之後，使用的感受上，似乎就更接近 Windows，不禁讓我想起 Linux Lite。然而，我必須說，對比之下，Linux Mint 給我感受更貼近 Windows。</p>
 <p> 相信對於不少 Windows 想要轉用 Linux 的伙伴而言，是一個滿大的加分選項，我相信，這或許可以解釋 Linux Mint 何以能夠在 DistroWatch 「網頁參觀排名」上排在第 3 名。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53069044977/in/dateposted-public/" title="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp12"><img src="https://live.staticflickr.com/65535/53069044977_6fca374b33_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonHP-ProDesk-600-G1-DMEp12"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 </li>
 <li><p>輕快的使用體驗，以及我喜歡的系統預載程式：Victoria 延續 Linux Mint 21.1 帶來的「輕快」使用感受，雖然不一定是最快的一支 Distro，但，我相信有前段班的水準(純綷是我個人感受，並沒有實測數據)。另外，防火牆與輸入法的部分，分別都已預先安裝 gufw 與 Fcitx5(搭配酷音輸入法)，也一樣從上一版延續下來，我個人是很喜歡的。 <a target="_blank" rel="noopener" href="https://www.flickr.com/photos/194265827@N08/53062101307/in/dateposted-public/" title="linuxmint-21.2-cinnamon-64bitonVirtualBoxEp6"><img src="https://live.staticflickr.com/65535/53062101307_80869d6645_c.jpg" alt="linuxmint-21.2-cinnamon-64bitonVirtualBoxEp6"></a></p>
- <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></li>
+</li>
 </ol>
-<hr>
 <h3 id="中文輸入法框架的使用心得"><a href="#中文輸入法框架的使用心得" class="headerlink" title="中文輸入法框架的使用心得"></a>中文輸入法框架的使用心得</h3><ol>
 <li><p>推薦的輸入法框架：我想，預設的 Fcitx5 就是最佳的選擇，如果是新酷音輸入法的使用者，基本上系統安裝完成，就可以直接使用。</p>
 </li>
 <li><p>嘸蝦米輸入法的話，要費點功夫，但也不難處理，我把說明放在下文。</p>
 </li>
 </ol>
-<hr>
 <h3 id="安裝嘸蝦米輸入法"><a href="#安裝嘸蝦米輸入法" class="headerlink" title="安裝嘸蝦米輸入法"></a>安裝嘸蝦米輸入法</h3><ol>
 <li><p>關鍵是 <code>fcitx5-table-extra</code> 這支套件，但身為 ubuntu(Debian) 衍生發行版的 Linux Mint，也一樣沒有將 <code>fcitx5-table-extra</code> 納入軟體庫。</p>
 </li>

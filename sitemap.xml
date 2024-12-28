@@ -2,6 +2,249 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-keyboard-2-for-ios-and-ipados/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-ime-professional-android/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/windows/enable-ahci-on-windows-10-via-cmd/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/lmde-5/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/endeavouros-apollo-22-1/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/shifting-from-mx-linux-to-garuda-linux/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/reviews/how-heavy-are-the-dumbbells-you-lifts/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/ubuntu-22-04-lts-and-official-boshiamy-ibus-table/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/apple/ios-16/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/fcitx5-with-chewing-on-ubuntu-22-04-lts/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/opensuse-tumbleweed-snapshot20220905/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/remove-ubuntu-from-bios-boot-menu/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/ibus-with-boshiamy-on-legacyos-2023/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/using-linux-lite-6-2-for-3-days/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/linux-lite-6-2/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/garuda-dr460nized-gaming-linux-zen-230311/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/centos-stream-9/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/upgrade-to-manjaro-linux-22-1-0-from-manjaro-linux-22-0-5/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/gufw-firewall-feat-manjaro/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/solus-4-4/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/linux-mint-21-2/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/windows/github-account-and-accessing-credential-manager/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/debian-12-and-boshiamy/</loc>
+    
+    <lastmod>2024-12-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/reviews/shopeexpress/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -128,15 +371,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/apple/ios-16/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/apple/ios-15-5/</loc>
     
     <lastmod>2024-12-28</lastmod>
@@ -200,15 +434,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/windows/github-account-and-accessing-credential-manager/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/</loc>
     
     <lastmod>2024-12-27</lastmod>
@@ -245,15 +470,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/boshiamy/debian-12-and-boshiamy/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-34/</loc>
     
     <lastmod>2024-12-27</lastmod>
@@ -264,15 +480,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/installing-boshiamy-table-for-ibus-on-fedora-34/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/arcolinuxl-and-boshiamy/</loc>
     
     <lastmod>2024-12-27</lastmod>
     
@@ -434,25 +641,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/shifting-from-mx-linux-to-garuda-linux/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/windows/winlibs/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/remove-ubuntu-from-bios-boot-menu/</loc>
     
     <lastmod>2024-12-13</lastmod>
     
@@ -471,24 +660,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/making-boshiamy-be-the-default-chinese-input-method-on-windows-10/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/linux-mint-21-2/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/linux-mint-21-1-and-boshiamy-feat-fcitx5-table-extra/</loc>
     
     <lastmod>2024-12-13</lastmod>
     
@@ -524,15 +695,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/fcitx5-with-chewing-on-ubuntu-22-04-lts/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/linux/archcraft-2023-01-01/</loc>
     
     <lastmod>2024-12-13</lastmod>
@@ -543,24 +705,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/after-upgrading-and-using-windows-11-and-boshiamy-for-several-hours/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-keyboard-2-for-ios-and-ipados/</loc>
-    
-    <lastmod>2024-12-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-ime-professional-android/</loc>
     
     <lastmod>2024-12-13</lastmod>
     
@@ -614,25 +758,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/boshiamy/ibus-with-boshiamy-on-legacyos-2023/</loc>
-    
-    <lastmod>2024-10-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/boshiamy/manjaro-xfce-21-2-2-and-boshiamy-feat-fcitx5/</loc>
-    
-    <lastmod>2024-10-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/fcitx5-with-fcitx5-table-extra-on-ubuntu-22-04-1-lts/</loc>
     
     <lastmod>2024-10-24</lastmod>
     
@@ -695,15 +821,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/solus-4-4/</loc>
-    
-    <lastmod>2024-10-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/boshiamy/manjaro-xfce-21-1-5-and-boshiamy/</loc>
     
     <lastmod>2024-10-18</lastmod>
@@ -714,15 +831,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/ubuntu-24-04-lts-and-boshiamy/</loc>
-    
-    <lastmod>2024-10-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/ubuntu-22-04-lts-and-official-boshiamy-ibus-table/</loc>
     
     <lastmod>2024-10-10</lastmod>
     
@@ -842,15 +950,6 @@
     <loc>http://jute.im/linux/quickrecap-of-ubuntu-21-10/</loc>
     
     <lastmod>2024-05-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/reviews/how-heavy-are-the-dumbbells-you-lifts/</loc>
-    
-    <lastmod>2024-05-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1118,33 +1217,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/lmde-5/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/endeavouros-apollo-22-1/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/garuda-dr460nized-gaming-linux-zen-230311/</loc>
-    
-    <lastmod>2024-03-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/linux/lmde-6/</loc>
     
     <lastmod>2024-03-17</lastmod>
@@ -1253,15 +1325,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/using-linux-lite-6-2-for-3-days/</loc>
-    
-    <lastmod>2023-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/linux/opensuse-leap-15-4/</loc>
     
     <lastmod>2023-12-24</lastmod>
@@ -1289,27 +1352,9 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/centos-stream-9/</loc>
-    
-    <lastmod>2023-12-24</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/google/import-google-takeout-by-thunderbird-with-importexporttools-ng/</loc>
     
     <lastmod>2023-11-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/opensuse-tumbleweed-snapshot20220905/</loc>
-    
-    <lastmod>2023-10-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1334,15 +1379,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/linux/linux-lite-6-2/</loc>
-    
-    <lastmod>2023-09-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/linux/manjaro-linux-22-0-5-plasma-edition/</loc>
     
     <lastmod>2023-09-10</lastmod>
@@ -1353,15 +1389,6 @@
   
   <url>
     <loc>http://jute.im/linux/how-to-disable-secure-boot-on-asus-m32cd/</loc>
-    
-    <lastmod>2023-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/gufw-firewall-feat-manjaro/</loc>
     
     <lastmod>2023-09-05</lastmod>
     
@@ -1451,34 +1478,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/windows/enable-ahci-on-windows-10-via-cmd/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/linux/linux-mint-21-1-vs-manjaro-22-1-0/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/upgrade-to-manjaro-linux-22-1-0-from-manjaro-linux-22-0-5/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/upgrade-to-ubuntu-22-04-2-lts-from-ubuntu-22-04-1-lts/</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1622,7 +1622,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/categories/index.html</loc>
+    <loc>http://jute.im/tags/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1631,7 +1631,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/index.html</loc>
+    <loc>http://jute.im/categories/index.html</loc>
     
     <lastmod>2023-08-03</lastmod>
     
@@ -1647,48 +1647,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>http://jute.im/tags/archlinux/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/garudalinux/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/linux/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/android/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/abattery/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/shizuku/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>http://jute.im/tags/apple/</loc>
@@ -1733,6 +1691,48 @@
   </url>
   
   <url>
+    <loc>http://jute.im/tags/android/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/abattery/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/shizuku/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/archlinux/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/garudalinux/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/linux/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/tags/ios/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1768,6 +1768,13 @@
   </url>
   
   <url>
+    <loc>http://jute.im/tags/windows11/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/tags/koreandrama/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1789,27 +1796,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/windows11/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/ipad/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/ipadair5/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/tags/archcraft/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1824,6 +1810,27 @@
   </url>
   
   <url>
+    <loc>http://jute.im/tags/arcolinux/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/fcitx5/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/fcitx5-table-extra/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/tags/linuxapps/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -1832,6 +1839,20 @@
   
   <url>
     <loc>http://jute.im/tags/mxlinux/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/ipad/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/ipadair5/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1873,35 +1894,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/mobliedevice/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/screenprotector/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/tags/debian/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/fcitx5/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/fcitx5-table-extra/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1923,6 +1916,20 @@
   
   <url>
     <loc>http://jute.im/tags/mojave/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/mobliedevice/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/screenprotector/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1992,13 +1999,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/arcolinux/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/tags/fcitx5-chewing/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -2007,6 +2007,13 @@
   
   <url>
     <loc>http://jute.im/tags/ubuntu/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/ferenos/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2035,13 +2042,6 @@
   
   <url>
     <loc>http://jute.im/tags/github/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/ferenos/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2160,7 +2160,14 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/cartoon/</loc>
+    <loc>http://jute.im/tags/linuxlite/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/tags/thunar/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2195,14 +2202,14 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/linuxlite/</loc>
+    <loc>http://jute.im/tags/legacyos/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://jute.im/tags/thunar/</loc>
+    <loc>http://jute.im/tags/cartoon/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2245,13 +2252,6 @@
   
   <url>
     <loc>http://jute.im/tags/xcode/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/legacyos/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2328,14 +2328,14 @@
   </url>
   
   <url>
-    <loc>http://jute.im/tags/%E5%98%B8%E8%9D%A6%E7%B1%B3/</loc>
+    <loc>http://jute.im/tags/macmini/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://jute.im/tags/macmini/</loc>
+    <loc>http://jute.im/tags/%E5%98%B8%E8%9D%A6%E7%B1%B3/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2433,6 +2433,13 @@
   </url>
   
   <url>
+    <loc>http://jute.im/tags/wintousb/</loc>
+    <lastmod>2024-12-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/tags/mingw/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -2441,13 +2448,6 @@
   
   <url>
     <loc>http://jute.im/tags/msys2/</loc>
-    <lastmod>2024-12-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/wintousb/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2862,7 +2862,7 @@
 
   
   <url>
-    <loc>http://jute.im/categories/linux/</loc>
+    <loc>http://jute.im/categories/boshiamy/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -2876,7 +2876,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/categories/boshiamy/</loc>
+    <loc>http://jute.im/categories/linux/</loc>
     <lastmod>2024-12-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
