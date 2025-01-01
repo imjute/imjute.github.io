@@ -7873,7 +7873,7 @@ gdb -v
       </tags>
   </entry>
   <entry>
-    <title>在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2024 年 5 月 1 日更新)</title>
+    <title>在 Linux 上輕鬆安裝 Fcitx 與嘸蝦米 (2024 年 8 月 1 日更新)</title>
     <url>/boshiamy/my-review-of-installing-fcitx-with-boshiamy-table-on-linux/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>Fctix，中文名稱是「小企鵝輸入法」。<br><img src="https://live.staticflickr.com/65535/53690555272_1d6d1b734c_b.jpg"></p>
 <p>談到 Fcitx 的話，我個人會用 fcitx(4) 與 Fcitx5 來區分這 2 代的輸入法框架，從 2021 年 7 月開始，我持續追縱各個發行版收錄 fcitx(4) 或 Fcitx5 相關套件情形至今，已有 3 年餘。</p>
