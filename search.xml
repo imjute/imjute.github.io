@@ -7464,7 +7464,7 @@ gdb -v
     <title>Windows 非預期重新啟動</title>
     <url>/windows/windows-restarts-unexpectedly/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>目前，我所使用的 Windows 桌機是 Acer Aspire TC-1660。最近一直遇到系統在非預期的狀況下，自己就重新啟動的狀況，而本文主要是紀錄我的故障排除過程。<img src="https://live.staticflickr.com/65535/54231204854_78c1b242e0_o.png" alt="windowsRestartsUnexpectedlyEp5"/></p>
-<h3 id="故障排除過程與相法"><a href="#故障排除過程與相法" class="headerlink" title="故障排除過程與相法"></a>故障排除過程與相法</h3><h4 id="問題發生的時間點"><a href="#問題發生的時間點" class="headerlink" title="問題發生的時間點"></a>問題發生的時間點</h4><ol>
+<h3 id="故障排除過程與想法"><a href="#故障排除過程與想法" class="headerlink" title="故障排除過程與想法"></a>故障排除過程與想法</h3><h4 id="問題發生的時間點"><a href="#問題發生的時間點" class="headerlink" title="問題發生的時間點"></a>問題發生的時間點</h4><ol>
 <li><p>這部機器出廠預載的系統是 Windows 10，後升級到 Windows 11。</p>
 </li>
 <li><p>使用一段時間的 Windows 11 後，我以重灌的方式，讓系統回到 Windows 10。</p>
