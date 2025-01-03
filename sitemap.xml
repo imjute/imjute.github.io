@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/reviews/razer-ornata-v3-tenkeyless/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/boshiamy/my-review-of-using-boshiamy-on-the-smartphone/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -39,15 +48,6 @@
   
   <url>
     <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-ime-professional-android/</loc>
-    
-    <lastmod>2025-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/reviews/razer-ornata-v3-tenkeyless/</loc>
     
     <lastmod>2025-01-03</lastmod>
     
