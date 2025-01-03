@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/reviews/love-next-door/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/reviews/alchemy-of-souls/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>http://jute.im/reviews/doona/</loc>
-    
-    <lastmod>2025-01-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/reviews/love-next-door/</loc>
     
     <lastmod>2025-01-03</lastmod>
     
