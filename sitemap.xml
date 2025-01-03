@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/installing-boshiamy-table-for-ibus-on-fedora-34/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-elementaryos-5-1/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/installing-boshiamy-table-for-fcitx-on-debian-10-10/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/reviews/love-next-door/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -920,24 +956,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/boshiamy/installing-fcitx-with-boshiamy-table-on-elementaryos-5-1/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-41/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/apple/installing-arch-linux-on-my-mac-mini/</loc>
     
     <lastmod>2024-12-27</lastmod>
@@ -956,25 +974,7 @@
   </url>
   
   <url>
-    <loc>http://jute.im/boshiamy/installing-boshiamy-table-for-fcitx-on-debian-10-10/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-34/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/installing-boshiamy-table-for-ibus-on-fedora-34/</loc>
     
     <lastmod>2024-12-27</lastmod>
     
