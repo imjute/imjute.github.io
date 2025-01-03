@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-34/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/boshiamy/installing-boshiamy-table-for-ibus-on-fedora-34/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -966,15 +975,6 @@
   
   <url>
     <loc>http://jute.im/linux/fedora-38-and-boshiamy/</loc>
-    
-    <lastmod>2024-12-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-34/</loc>
     
     <lastmod>2024-12-27</lastmod>
     
@@ -2338,13 +2338,6 @@
   
   <url>
     <loc>http://jute.im/tags/amaroklinux/</loc>
-    <lastmod>2025-01-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/tags/%E5%98%B8%E8%9D%A6%E7%B1%B3/</loc>
     <lastmod>2025-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
