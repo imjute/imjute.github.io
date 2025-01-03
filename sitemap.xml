@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/android/abattery-and-shizuku/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/boshiamy/installing-fcitx-5-with-boshiamy-on-fedora-34/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -140,15 +149,6 @@
     <loc>http://jute.im/boshiamy/manjaro-xfce-23-0-and-boshiamy/</loc>
     
     <lastmod>2024-12-31</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/android/abattery-and-shizuku/</loc>
-    
-    <lastmod>2024-12-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
