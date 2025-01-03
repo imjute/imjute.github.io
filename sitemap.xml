@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jute.im/boshiamy/my-review-of-using-boshiamy-on-the-smartphone/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/windows/my-note-about-creating-installers-for-windows-with-nsis/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jute.im/linux/installing-virtualbox-6-1-26-on-clear-linux/</loc>
+    
+    <lastmod>2025-01-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jute.im/boshiamy/about-the-setting-of-boshiamy-keyboard-2-for-ios-and-ipados/</loc>
     
     <lastmod>2025-01-03</lastmod>
@@ -237,15 +264,6 @@
   
   <url>
     <loc>http://jute.im/linux/installing-fcitx-with-boshiamy-table-on-ubuntu-21-04/</loc>
-    
-    <lastmod>2024-12-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/boshiamy/my-review-of-using-boshiamy-on-the-smartphone/</loc>
     
     <lastmod>2024-12-28</lastmod>
     
@@ -1595,15 +1613,6 @@
   </url>
   
   <url>
-    <loc>http://jute.im/windows/my-note-about-creating-installers-for-windows-with-nsis/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://jute.im/linux/unistall-grub-by-clearlinux-live-usb/</loc>
     
     <lastmod>2023-08-03</lastmod>
@@ -1614,15 +1623,6 @@
   
   <url>
     <loc>http://jute.im/linux/upgrade-to-fedora-35-from-fedora-34/</loc>
-    
-    <lastmod>2023-08-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://jute.im/linux/installing-virtualbox-6-1-26-on-clear-linux/</loc>
     
     <lastmod>2023-08-03</lastmod>
     

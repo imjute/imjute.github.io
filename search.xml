@@ -3654,8 +3654,7 @@
   <entry>
     <title>在 Clear Linux 上安裝 VirtualBox 6.1.26</title>
     <url>/linux/installing-virtualbox-6-1-26-on-clear-linux/</url>
-    <content><![CDATA[<p><img src="https://live.staticflickr.com/65535/51384804564_d642fe62fb_o.png"></p>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我是先把 Kernel 等相關套件，以及 VirtualBox 安裝起來之後，再從錯誤訊息去嘗試排除問題，最後，終於順利讓 VirtualBox 在 Clear Linux 啟動與使用。</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我是先把 Kernel 等相關套件，以及 VirtualBox 安裝起來之後，再從錯誤訊息去嘗試排除問題，最後，終於順利讓 VirtualBox 在 Clear Linux 啟動與使用。</p>
 <h3 id="安裝-Kernel-等相關套件"><a href="#安裝-Kernel-等相關套件" class="headerlink" title="安裝 Kernel 等相關套件"></a>安裝 Kernel 等相關套件</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo swupd search kernel</span><br><span class="line">sudo swupd bundle-add kernel-lts kernel-lts-dkms</span><br></pre></td></tr></table></figure>
 
 <h3 id="安裝-VirtualBox"><a href="#安裝-VirtualBox" class="headerlink" title="安裝 VirtualBox"></a>安裝 VirtualBox</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">curl -O https://download.virtualbox.org/virtualbox/6.1.26/VirtualBox-6.1.26-145957-Linux_amd64.run</span><br><span class="line">chmod +x VirtualBox-6.1.26-145957-Linux_amd64.run</span><br><span class="line">sudo ./VirtualBox-6.1.26-145957-Linux_amd64.run</span><br><span class="line">VirtualBox</span><br></pre></td></tr></table></figure>
@@ -3663,8 +3662,10 @@
 <h3 id="從錯誤訊息中補充進來的套件與相關做法"><a href="#從錯誤訊息中補充進來的套件與相關做法" class="headerlink" title="從錯誤訊息中補充進來的套件與相關做法"></a>從錯誤訊息中補充進來的套件與相關做法</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">sudo /sbin/vboxconfig</span><br><span class="line">sudo swupd bundle-add deprecated-python2</span><br><span class="line">sudo swupd bundle-add linux-dev</span><br><span class="line">sudo swupd bundle-add dev-utils-dev</span><br><span class="line">sudo modprobe vboxdrv</span><br><span class="line">sudo clr-boot-manager update</span><br><span class="line">sudo reboot</span><br></pre></td></tr></table></figure>
 
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
-<li>本次使用的 Clear Linux 版本是 34930。</li>
-<li>這次比較可惜的是我還沒有把過程截圖，就執行 sudo reboot，所以，我得回過頭去看自己下了什麼指令，並且回想一下自己做了什麼。</li>
+<li><p>本次使用的 Clear Linux 版本是 34930。</p>
+</li>
+<li><p>這次比較可惜的是我還沒有把過程截圖，就執行 sudo reboot，所以，我得回過頭去看自己下了什麼指令，並且回想一下自己做了什麼。</p>
+</li>
 </ol>
 ]]></content>
       <categories>
@@ -5761,24 +5762,30 @@ gdb -v
   <entry>
     <title>筆記我使用 NSIS 製作 Windows 安裝檔的過程</title>
     <url>/windows/my-note-about-creating-installers-for-windows-with-nsis/</url>
-    <content><![CDATA[<p><img src="https://live.staticflickr.com/65535/51342844931_29c6d37307_o.png"> <a href="https://nsis.sourceforge.io/Main_Page" title="NSIS (Nullsoft Scriptable Install System)">NSIS (Nullsoft Scriptable Install System)</a> 是一個建立安裝檔非常好用且免費的軟體。</p>
-<p>有鑑於資訊的發展日新月異，在進入主題之前，我先註明一下本次筆記內所使用的軟硬體概況：</p>
+    <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><img src="https://live.staticflickr.com/65535/51342844931_29c6d37307_o.png"> <a href="https://nsis.sourceforge.io/Main_Page" title="NSIS (Nullsoft Scriptable Install System)">NSIS (Nullsoft Scriptable Install System)</a> 是一個建立安裝檔非常好用且免費的軟體。</p>
+<h3 id="安裝環境"><a href="#安裝環境" class="headerlink" title="安裝環境"></a>安裝環境</h3><p>有鑑於資訊的發展日新月異，在進入主題之前，我先註明一下本次筆記內所使用的軟硬體概況：</p>
 <ol>
 <li>iMac Retina 4K，21.5 英寸，2017，3.4GHz CPU，8GB 2400MHz DDR4 RAM，120 GB USBHDD</li>
 <li>Windows 10 家用版 (版本 1903)</li>
 <li>NSIS 3.07</li>
 </ol>
-<p>使用前我試著翻閱中英文的說明，不得不說，這些說明反而讓人望之卻步，正當我苦惱之際，在軟體的介面上，看到「Example scripts」幾個字，順勢點進去之後，我分別開啟 example1 與 example2 這 2 個檔案，觀察一下之後，就直接拿 example2 來改，原因是 example2 把 Uninstaller 的寫法直接放進來，而這正是我需要的，服用的方式，也算容易，用 Notepad++ 打開後，我就用取代的方式，把關鍵字「Example2」換成我要安裝的應用程式名稱，除此之外，還走過下面幾個步驟：</p>
+<h3 id="安裝流程"><a href="#安裝流程" class="headerlink" title="安裝流程"></a>安裝流程</h3><p>使用前我試著翻閱中英文的說明，不得不說，這些說明反而讓人望之卻步，正當我苦惱之際，在軟體的介面上，看到「Example scripts」幾個字，順勢點進去之後，我分別開啟 example1 與 example2 這 2 個檔案，觀察一下之後，就直接拿 example2 來改，原因是 example2 把 Uninstaller 的寫法直接放進來，而這正是我需要的，服用的方式，也算容易，用 Notepad++ 打開後，我就用取代的方式，把關鍵字「Example2」換成我要安裝的應用程式名稱，除此之外，還走過下面幾個步驟：</p>
 <ol>
-<li>因為要打包的程式，在執行上的需求，我也就把 <a href="https://nsis.sourceforge.io/AccessControl_plug-in" title="AccessControl plug-in">AccessControl plug-in</a> 安裝進來。 <img src="https://live.staticflickr.com/65535/51343727697_5ce84b2d65_o.png"></li>
-<li>本以為，直接解壓到 NSIS 的安裝目錄就可以，結果…，因為編譯錯誤的關係，我發現要自己去把「i386-ansi」與「i386-unicode」裡面的 AccessControl.dll 分別移到「x86-ansi」與「x86-unicode」(這支 AccessControl.dll 在兩個夾子的名字都一樣，因此，移動的時候，要特別注意別搞錯)。 <img src="https://live.staticflickr.com/65535/51342126112_68412d1bdb_o.png"></li>
-<li>再經過幾次調校後，就成功打包起來。 <img src="https://live.staticflickr.com/65535/51343638529_e238402d95_o.png"></li>
-<li>可以安裝是一定要的。 <img src="https://live.staticflickr.com/65535/51342844851_812cef4b85_o.png"></li>
-<li>然後，可以全權讀取與寫入，所以，程式的執行上，也沒有什麼問題。 <img src="https://live.staticflickr.com/65535/51343865745_22c58a1367_o.png"></li>
-<li>最後，跑一下 Uninstaller，確認可以移除檔案、資料夾與捷徑。 <img src="https://live.staticflickr.com/65535/51343656504_9a276913ef_o.png"></li>
+<li><p>因為要打包的程式，在執行上的需求，我也就把 <a href="https://nsis.sourceforge.io/AccessControl_plug-in" title="AccessControl plug-in">AccessControl plug-in</a> 安裝進來。 <img src="https://live.staticflickr.com/65535/51343727697_5ce84b2d65_o.png"></p>
+</li>
+<li><p>本以為，直接解壓到 NSIS 的安裝目錄就可以，結果…，因為編譯錯誤的關係，我發現要自己去把「i386-ansi」與「i386-unicode」裡面的 AccessControl.dll 分別移到「x86-ansi」與「x86-unicode」(這支 AccessControl.dll 在兩個夾子的名字都一樣，因此，移動的時候，要特別注意別搞錯)。 <img src="https://live.staticflickr.com/65535/51342126112_68412d1bdb_o.png"></p>
+</li>
+<li><p>再經過幾次調校後，就成功打包起來。 <img src="https://live.staticflickr.com/65535/51343638529_e238402d95_o.png"></p>
+</li>
+<li><p>可以安裝是一定要的。 <img src="https://live.staticflickr.com/65535/51342844851_812cef4b85_o.png"></p>
+</li>
+<li><p>然後，可以全權讀取與寫入，所以，程式的執行上，也沒有什麼問題。 <img src="https://live.staticflickr.com/65535/51343865745_22c58a1367_o.png"></p>
+</li>
+<li><p>最後，跑一下 Uninstaller，確認可以移除檔案、資料夾與捷徑。 <img src="https://live.staticflickr.com/65535/51343656504_9a276913ef_o.png"></p>
+</li>
 </ol>
 <p>最後，考慮到安全性的問題，我就不提供 .nsi 的 Scripts 檔下載，直接貼出來給大家參考，如果剛好符合您大致上的需求，也可以直接複製去服用。</p>
-<p>考量到安裝 MarkDown 的外掛後，有些符號無法正常顯示，我另外使用 Blogger 把 Scripts 檔上架，有需要的伙伴，可以點傳送門去參考取用：<a href="https://mtmattpage.blogspot.com/2023/07/scripts-of-nsis.html" title="AccessControl plug-in">Scripts of NSIS</a>(更新日期：2023-07-20)。</p>
+<h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><p>考量到安裝 MarkDown 的外掛後，有些符號無法正常顯示，我另外使用 Blogger 把 Scripts 檔上架，有需要的伙伴，可以點傳送門去參考取用：<a href="https://mtmattpage.blogspot.com/2023/07/scripts-of-nsis.html" title="AccessControl plug-in">Scripts of NSIS</a>(更新日期：2023-07-20)。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">; DNW.nsi</span><br><span class="line">;</span><br><span class="line">; This script is based on example1.nsi, but it remember the directory, </span><br><span class="line">; has uninstall support and (optionally) installs start menu shortcuts.</span><br><span class="line">;</span><br><span class="line">; It will install DNW.nsi into a directory that the user selects.</span><br><span class="line">;</span><br><span class="line">; See install-shared.nsi for a more robust way of checking for administrator rights.</span><br><span class="line">; See install-per-user.nsi for a file association example.</span><br><span class="line"></span><br><span class="line">;--------------------------------</span><br><span class="line"></span><br><span class="line">; The name of the installer</span><br><span class="line">Name &quot;DNW&quot;</span><br><span class="line"></span><br><span class="line">; The file to write</span><br><span class="line">OutFile &quot;DNWInstaller.exe&quot;</span><br><span class="line"></span><br><span class="line">; Request application privileges for Windows Vista and higher</span><br><span class="line">RequestExecutionLevel admin</span><br><span class="line"></span><br><span class="line">; Build Unicode installer</span><br><span class="line">Unicode True</span><br><span class="line"></span><br><span class="line">; The default installation directory</span><br><span class="line">InstallDir $PROGRAMFILES\DNW</span><br><span class="line"></span><br><span class="line">; Registry key to check for directory (so if you install again, it will </span><br><span class="line">; overwrite the old one automatically)</span><br><span class="line">InstallDirRegKey HKLM &quot;Software\DNW&quot; &quot;Install_Dir&quot;</span><br><span class="line"></span><br><span class="line">;--------------------------------</span><br><span class="line"></span><br><span class="line">; Pages</span><br><span class="line"></span><br><span class="line">Page components</span><br><span class="line">Page directory</span><br><span class="line">Page instfiles</span><br><span class="line"></span><br><span class="line">UninstPage uninstConfirm</span><br><span class="line">UninstPage instfiles</span><br><span class="line"></span><br><span class="line">;--------------------------------</span><br><span class="line"></span><br><span class="line">; The stuff to install</span><br><span class="line"></span><br><span class="line">Section &quot;DNW (required)&quot;</span><br><span class="line"></span><br><span class="line">  SectionIn RO</span><br><span class="line"></span><br><span class="line">  ; Set output path to the installation directory.</span><br><span class="line">  SetOutPath $INSTDIR</span><br><span class="line"></span><br><span class="line">  ; Put file there</span><br><span class="line">  File &quot;DNW.exe&quot;</span><br><span class="line">  File &quot;makeData.exe&quot;</span><br><span class="line"></span><br><span class="line">  ; Write the installation path into the registry</span><br><span class="line">  WriteRegStr HKLM SOFTWARE\DNW &quot;Install_Dir&quot; &quot;$INSTDIR&quot;</span><br><span class="line"></span><br><span class="line">  ; Write the uninstall keys for Windows</span><br><span class="line">  WriteRegStr HKLM &quot;Software\Microsoft\Windows\CurrentVersion\Uninstall\DNW&quot; &quot;DisplayName&quot; &quot;DNW&quot;</span><br><span class="line">  WriteRegStr HKLM &quot;Software\Microsoft\Windows\CurrentVersion\Uninstall\DNW&quot; &quot;UninstallString&quot; &#x27;&quot;$INSTDIR\uninstall.exe&quot;&#x27;</span><br><span class="line">  WriteRegDWORD HKLM &quot;Software\Microsoft\Windows\CurrentVersion\Uninstall\DNW&quot; &quot;NoModify&quot; 1</span><br><span class="line">  WriteRegDWORD HKLM &quot;Software\Microsoft\Windows\CurrentVersion\Uninstall\DNW&quot; &quot;NoRepair&quot; 1</span><br><span class="line">  WriteUninstaller &quot;$INSTDIR\uninstall.exe&quot;</span><br><span class="line"></span><br><span class="line">SectionEnd</span><br><span class="line"></span><br><span class="line">Section</span><br><span class="line"></span><br><span class="line">  SetOutPath &quot;$INSTDIR\data&quot;</span><br><span class="line">  SetOverwrite on</span><br><span class="line">  File /nonfatal /r &quot;$data\*.*&quot;</span><br><span class="line">  AccessControl::GrantOnFile &quot;$INSTDIR\data&quot; &quot;(S-1-1-0)&quot; &quot;FullAccess&quot;</span><br><span class="line">  AccessControl::GrantOnFile &quot;$INSTDIR\data&quot; &quot;(S-1-5-32-545)&quot; &quot;FullAccess&quot;</span><br><span class="line"># Give all authentificated users (BUILTIN\Users) full access on</span><br><span class="line"># the registry key HKEY_LOCAL_MACHINE\Software\DNW</span><br><span class="line">  AccessControl::GrantOnRegKey \</span><br><span class="line">    HKLM &quot;Software\DNW\data&quot; &quot;(BU)&quot; &quot;FullAccess&quot;</span><br><span class="line">  Pop $0</span><br><span class="line"></span><br><span class="line">SectionEnd</span><br><span class="line"></span><br><span class="line">; Optional section </span><br><span class="line">Section &quot;Start Menu Shortcuts&quot;</span><br><span class="line"></span><br><span class="line">  CreateDirectory &quot;$SMPROGRAMS\DNW&quot;</span><br><span class="line">  CreateShortcut &quot;$SMPROGRAMS\DNW\Uninstall.lnk&quot; &quot;$INSTDIR\uninstall.exe&quot;</span><br><span class="line">  SetOutPath &quot;$INSTDIR&quot;</span><br><span class="line">  CreateShortcut &quot;$SMPROGRAMS\DNW\DNW.lnk&quot; &quot;$INSTDIR\DNW.exe&quot;</span><br><span class="line"></span><br><span class="line">SectionEnd</span><br><span class="line"></span><br><span class="line">; Optional section</span><br><span class="line">Section &quot;Desktop Shortcut&quot;</span><br><span class="line"></span><br><span class="line">  SetOutPath &quot;$INSTDIR&quot;</span><br><span class="line">  CreateShortcut &quot;$DESKTOP\DNW.lnk&quot; &quot;$INSTDIR\DNW.exe&quot;</span><br><span class="line"></span><br><span class="line">SectionEnd</span><br><span class="line"></span><br><span class="line">;--------------------------------</span><br><span class="line"></span><br><span class="line">; Uninstaller</span><br><span class="line"></span><br><span class="line">Section &quot;Uninstall&quot;</span><br><span class="line"></span><br><span class="line">  ; Remove registry keys</span><br><span class="line">  DeleteRegKey HKLM &quot;Software\Microsoft\Windows\CurrentVersion\Uninstall\DNW&quot;</span><br><span class="line">  DeleteRegKey HKLM &quot;SOFTWARE\DNW&quot;</span><br><span class="line"></span><br><span class="line">  ; Remove files and uninstaller</span><br><span class="line">  Delete &quot;$INSTDIR\*.*&quot;</span><br><span class="line">  Delete &quot;$INSTDIR\data\*.*&quot;</span><br><span class="line"></span><br><span class="line">  ; Remove shortcuts, if any</span><br><span class="line">  Delete &quot;$SMPROGRAMS\DNW\*.lnk&quot;</span><br><span class="line">  Delete &quot;$DESKTOP\DNW.lnk&quot;</span><br><span class="line"></span><br><span class="line">  ; Remove directories</span><br><span class="line">  RMDir &quot;$INSTDIR\DNW\data&quot;</span><br><span class="line">  RMDir &quot;$INSTDIR\DNW&quot;</span><br><span class="line">  RMDir &quot;$INSTDIR&quot;</span><br><span class="line">  RMDir /r &quot;$INSTDIR&quot;</span><br><span class="line"></span><br><span class="line">SectionEnd</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
@@ -5881,13 +5888,13 @@ gdb -v
     <title>智慧型手機上的嘸蝦米使用心得 (2024 年 9 月 6 日更新)</title>
     <url>/boshiamy/my-review-of-using-boshiamy-on-the-smartphone/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><ol>
-<li><p>iOS(iPadOS) 上第 1 個官方認證版： <img src="https://live.staticflickr.com/65535/51255774052_d7c1e15150.jpg" alt="boshiamyforiOSversion1"></p>
+<li><p>iOS(iPadOS) 上第 1 個官方認證版。<img src="https://live.staticflickr.com/65535/51255774052_d7c1e15150_b.jpg" alt="boshiamyforiOSversion1"/></p>
 </li>
-<li><p>iOS(iPadOS) 上第 2 個官方認證版： <img src="https://live.staticflickr.com/65535/51257544415_180ddc6d0e_z.jpg" alt="boshiamyforiOSversion2"></p>
+<li><p>iOS(iPadOS) 上第 2 個官方認證版。<img src="https://live.staticflickr.com/65535/51257544415_52d6f1ee36_h.jpg" alt="boshiamyforiOSversion2"/></p>
 </li>
-<li><p>Android 上第 1 個官方釋出版本： <img src="https://live.staticflickr.com/65535/51256704228_d55740a545.jpg" alt="boshiamyforAndroidIMEversion"></p>
+<li><p>Android 上第 1 個官方釋出版本。<img src="https://live.staticflickr.com/65535/51256704228_d55740a545_b.jpg" alt="boshiamyforAndroidIMEversion"/></p>
 </li>
-<li><p>Android 上第 2 個官方釋出版本： <img src="https://live.staticflickr.com/65535/51265435798_a75d622d66.jpg" alt="boshiamyforAndroidProVersionAuthorized"></p>
+<li><p>Android 上第 2 個官方釋出版本。<img src="https://live.staticflickr.com/65535/51265435798_a75d622d66_b.jpg" alt="boshiamyforAndroidProVersionAuthorized"/></p>
 </li>
 </ol>
 <h3 id="關鍵不在費用"><a href="#關鍵不在費用" class="headerlink" title="關鍵不在費用"></a>關鍵不在費用</h3><p>官方認證或官方釋出的智慧型手機專用嘸蝦米，所有的版本，我都有付費使用，但是，慢慢地，我可能會放掉手機版的嘸蝦米，原因，並不是費用問題。</p>
@@ -5895,7 +5902,7 @@ gdb -v
 <h4 id="在-iOS-iPadOS-這邊"><a href="#在-iOS-iPadOS-這邊" class="headerlink" title="在 iOS(iPadOS) 這邊"></a>在 iOS(iPadOS) 這邊</h4><p>我的期待是如果能夠連結上藍牙鍵盤，那種用鍵盤入字的快感，比較會讓我覺得是在打嘸蝦米，但蘋果一直以來，都沒有讓這個功能解除封印，越獄可以嗎？…我個人並沒有試過。</p>
 <p>但，這並不是行易有限公司的認證授權問題，問題出在蘋果…</p>
 <h4 id="在-Android-這邊"><a href="#在-Android-這邊" class="headerlink" title="在 Android 這邊"></a>在 Android 這邊</h4><p>可以連結藍牙鍵盤是一大勝點，但無論是 IME 版或是 Pro 版，入字感都有點鈍，IME 版在 Android 8 的表現還不錯，但後續的系統已經不再開放 IME 正式版的使用(即便我是合法付費使用者)；至於 Pro 版，當我還在使用 Android 10 時，常常是我的指頭要等鍵盤回應，雖然說升級到 Android 11 會有明顯改善，但是，我自己的觀察是：在 S865+ 上的改善是比較明顯的，另外一部 S765G 的機器，仍然有一點點頓頓的感覺。</p>
-<p>把處理器的問題先擺一旁的話，我發現另外可能造成入字速度緩慢下來的原因在於手機螢幕大小與「空白鍵」的觸控範圍，會與我手指頭觸碰習慣不太一致有關，我嘗試使用的解決方式，就是去把嘸蝦米鍵盤設定的「按鍵時震動」勾選起來，我可以透過這樣的設定，提醒自己是否有效觸碰到「空白鍵」而有一些改善。 <img src="https://live.staticflickr.com/65535/51265252646_289c989893.jpg" alt="mySettingofBoshiamyforAndroidProVersion"></p>
+<p>把處理器的問題先擺一旁的話，我發現另外可能造成入字速度緩慢下來的原因在於手機螢幕大小與「空白鍵」的觸控範圍，會與我手指頭觸碰習慣不太一致有關，我嘗試使用的解決方式，就是去把嘸蝦米鍵盤設定的「按鍵時震動」勾選起來，我可以透過這樣的設定，提醒自己是否有效觸碰到「空白鍵」而有一些改善。<img src="https://live.staticflickr.com/65535/51265252646_289c989893_b.jpg" alt="mySettingofBoshiamyforAndroidProVersion"/></p>
 <h3 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h3><ol>
 <li><p>在 Android 上，希望上面的設定，可以讓手機版的嘸蝦米再戰個幾年，Android 上還有非官方的 Fcitx 5 for Android(小企鵝輸入法5)，安裝過程要走的路有點蜿蜒，但，安裝後的使用，滿合我的味口的，關於「Fcitx 5 for Android(小企鵝輸入法5)與嘸蝦米」這個部分，可以參考我的另外一篇貼文：「<a href="/boshiamy/install-boshiamy-table-to-fcitx5-for-android/">安裝 Fcitx5 for Android(小企鵝輸入法5)與嘸蝦米</a>」。</p>
 </li>
